@@ -19,8 +19,8 @@ jobs:
   steps:
     - task: Npm@1
       inputs:
-        command: install
-        workingDir: projects/yarn
+        command: custom
+        customCommand: install -g yarn
 - job: containerized_job
   dependsOn: build_test_harness
   displayName: Run a job in a container
