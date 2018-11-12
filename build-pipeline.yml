@@ -1,5 +1,5 @@
 jobs:
-- job: build-test-harness
+- job: build_test_harness
   displayName: Build Test Harness
   pool:
     vmImage: vs2017-win2016
