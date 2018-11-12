@@ -20,5 +20,5 @@ jobs:
   pool:
     vmImage: win1803
   steps:
-   powershell: Write-Host hello
+  - powershell: Write-Host hello
     displayName: Test Running in a container
