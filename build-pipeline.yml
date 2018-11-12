@@ -1,0 +1,7 @@
+- job: build-test-harness
+  displayName: Build Test Harness
+  pool:
+    vmImage: vs2017-win2016
+  steps:
+    - checkout: self
+      clean: true
