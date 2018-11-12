@@ -1,3 +1,8 @@
+resources:
+  containers:
+  - container: nanoserver
+    image: microsoft/nanoserver
+
 jobs:
 - job: build_test_harness
   displayName: Build Test Harness
@@ -19,10 +24,8 @@ jobs:
   displayName: Run a job in a container
   pool:
     vmImage: win1803
+  container: nanoserver
   steps:
   - powershell: Write-Host hello
     displayName: Test Running in a container
-  resources:
-    containers:
-    - container: nanoserver
-      image: microsoft/nanoserver
+
