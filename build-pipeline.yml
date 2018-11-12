@@ -28,6 +28,7 @@ jobs:
     vmImage: win1803
   container: nanoserver
   steps:
-  - powershell: Write-Host hello
-    displayName: Test Running in a container
+  - task: NodeTool@0
+    inputs:
+    versionSpec: '6.x'
 
