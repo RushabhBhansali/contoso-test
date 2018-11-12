@@ -22,3 +22,7 @@ jobs:
   steps:
   - powershell: Write-Host hello
     displayName: Test Running in a container
+  resources:
+    containers:
+    - container: nanoserver
+      image: microsoft/nanoserver
