@@ -6,3 +6,10 @@ jobs:
   steps:
   - powershell: Write-Host hello
     displayName: Running a script
+- job: other_job
+  displayName: Run another job
+  pool:
+    vmImage: ubuntu-16.04
+  steps:
+  - bash: echo hello
+    displayName: Echo hello from linus
