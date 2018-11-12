@@ -17,8 +17,10 @@ jobs:
   pool:
     vmImage: ubuntu-16.04
   steps:
-  - bash: echo hello
-    displayName: Echo hello from linus
+    - task: Npm@1
+      inputs:
+        command: install
+        workingDir: projects/yarn
 - job: containerized_job
   dependsOn: build_test_harness
   displayName: Run a job in a container
