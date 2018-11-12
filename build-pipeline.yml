@@ -14,3 +14,11 @@ jobs:
   steps:
   - bash: echo hello
     displayName: Echo hello from linus
+- job: containerized_job
+  dependsOn: build_test_harness
+  displayName: Run a job in a container
+  pool:
+    vmImage: win1803
+  steps:
+   powershell: Write-Host hello
+    displayName: Test Running in a container
