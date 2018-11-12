@@ -4,5 +4,5 @@ jobs:
   pool:
     vmImage: vs2017-win2016
   steps:
-  - checkout: self
-    clean: true
+  - powershell: Write-Host hello
+    displayName: Running a script
