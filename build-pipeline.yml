@@ -11,9 +11,9 @@ jobs:
   steps:
   - powershell: Write-Host hello
     displayName: Running a script
-- job: other_job
+- job: ubuntu_1604
   dependsOn: build_test_harness
-  displayName: Run another job
+  displayName: Component Detection - Ubuntu 16.04
   pool:
     vmImage: ubuntu-16.04
   steps:
@@ -21,9 +21,9 @@ jobs:
       inputs:
         command: install
         workingDir: projects/npm
-- job: containerized_job
+- job: windows_containerized_job
   dependsOn: build_test_harness
-  displayName: Run a job in a container
+  displayName: Component Detection - Windows Container 1803
   pool:
     vmImage: win1803
   container: servercore
@@ -31,4 +31,22 @@ jobs:
   - task: NodeTool@0
     inputs:
       versionSpec: '6.x'
+  - task: Npm@1
+    inputs:
+      command: install
+      workingDir: projects/npm
+- job: vs2017_win2016_job
+  dependsOn: build_test_harness
+  displayName: Component Detection - Windows Server 2016
+  pool:
+    vmImage: vs2017-win2016
+  container: servercore
+  steps:
+  - task: NodeTool@0
+    inputs:
+      versionSpec: '6.x'
+  - task: Npm@1
+    inputs:
+      command: install
+      workingDir: projects/npm
 
