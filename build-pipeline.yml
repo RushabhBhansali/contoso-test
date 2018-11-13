@@ -40,7 +40,6 @@ jobs:
   displayName: Component Detection - Windows Server 2016
   pool:
     vmImage: vs2017-win2016
-  container: servercore
   steps:
   - task: NodeTool@0
     inputs:
