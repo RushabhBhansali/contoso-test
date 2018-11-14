@@ -13,18 +13,6 @@ jobs:
   pool:
     vmImage: vs2017-win2016
   steps:
-  - powershell: Write-Host hello
-    displayName: Running a script
-- job: ubuntu_1604
-  dependsOn: build_test_harness
-  displayName: Component Detection - Ubuntu 16.04
-  pool:
-    vmImage: ubuntu-16.04
-  steps:
-  - task: Npm@1
-    inputs:
-      command: install
-      workingDir: projects/npm
   - task: DownloadBuildArtifacts@0
     inputs:
       buildType: 'specific'
@@ -42,6 +30,19 @@ jobs:
       buildId: $(BuildId)
       downloadType: 'specific'
     condition: eq(variables['BuildToDownload'], 'specific')
+  - task: PowerShell@2
+    inputs:
+      filePath: set-artifact-name.ps1
+- job: ubuntu_1604
+  dependsOn: build_test_harness
+  displayName: Component Detection - Ubuntu 16.04
+  pool:
+    vmImage: ubuntu-16.04
+  steps:
+  - task: Npm@1
+    inputs:
+      command: install
+      workingDir: projects/npm
   - task: ShellScript@2
     inputs:
       scriptPath: set-artifact-name.sh
@@ -51,7 +52,6 @@ jobs:
     inputs:
       buildNumber: $(myArtifactName)
       dropServiceURI: 'https://mseng.artifacts.visualstudio.com/DefaultCollection'
-
 #- job: windows_containerized_job
 #  dependsOn: build_test_harness
 #  displayName: Component Detection - Windows Container 1803
