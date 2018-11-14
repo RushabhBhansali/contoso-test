@@ -42,7 +42,7 @@ jobs:
       buildId: $(BuildId)
       downloadType: 'specific'
     condition: eq(variables['BuildToDownload'], 'specific')
-  - bash: cat $(Build.ArtifactStagingDirectory)/**/VSTSDrop.json
+  - script: set-artifact-name.sh
 - job: windows_containerized_job
   dependsOn: build_test_harness
   displayName: Component Detection - Windows Container 1803
