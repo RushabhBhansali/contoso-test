@@ -8,4 +8,4 @@ result=$(cat ${files[0]} | python -c "import json,sys;obj=json.load(sys.stdin);p
 
 name=${result#"https://mseng.artifacts.visualstudio.com/DefaultCollection/_apis/drop/drops/"}
 
-echo ${name}
+echo '##vso[task.setvariable variable=ArtifactName]${name}'
