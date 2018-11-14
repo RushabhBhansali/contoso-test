@@ -2,6 +2,6 @@
 
 artifactDir=${1}
 pattern="${artifactDir}/**/VSTSDrop.json"
-files==( $pattern )
+files=( $pattern )
 
 echo "${files[0]}"
