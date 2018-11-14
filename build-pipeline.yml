@@ -56,7 +56,8 @@ jobs:
   - task: DownloadPipelineArtifact@0
     inputs:
       artifactName: CG
-  - bash: ls -la
+      targetPath: $(Build.ArtifactStagingDirectory)
+  - bash: $(Build.ArtifactStagingDirectory)/netstandard2.0/Governance.ComponentDetection.Package/linux/MS.VS.Services.Governance.ComponentDetection.Loader detect --ScanType LogOnly --SourceDirectory $(Build.SourcesDirectory)/projects
 #- job: windows_containerized_job
 #  dependsOn: build_test_harness
 #  displayName: Component Detection - Windows Container 1803
