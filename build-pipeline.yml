@@ -46,20 +46,20 @@ jobs:
     inputs:
       scriptPath: set-artifact-name.sh
       args: $(Build.ArtifactStagingDirectory)
-- job: windows_containerized_job
-  dependsOn: build_test_harness
-  displayName: Component Detection - Windows Container 1803
-  pool:
-    vmImage: win1803
-  container: servercore
-  steps:
-  - task: NodeTool@0
-    inputs:
-      versionSpec: '6.x'
-  - task: Npm@1
-    inputs:
-      command: install
-      workingDir: projects/npm
+#- job: windows_containerized_job
+#  dependsOn: build_test_harness
+#  displayName: Component Detection - Windows Container 1803
+#  pool:
+#    vmImage: win1803
+#  container: servercore
+#  steps:
+#  - task: NodeTool@0
+#    inputs:
+#      versionSpec: '6.x'
+#  - task: Npm@1
+#    inputs:
+#      command: install
+#      workingDir: projects/npm
 - job: vs2017_win2016_job
   dependsOn: build_test_harness
   displayName: Component Detection - Windows Server 2016
