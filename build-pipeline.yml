@@ -33,6 +33,11 @@ jobs:
   - task: PowerShell@2
     inputs:
       filePath: set-artifact-name.ps1
+  - task: ms-vscs-artifact.build-tasks.artifactDropDownloadTask-1.artifactDropDownloadTask@0
+    displayName: 'Download from Artifact Services Drop'
+    inputs:
+      buildNumber: $(myArtifactName)
+      dropServiceURI: 'https://mseng.artifacts.visualstudio.com/DefaultCollection'
 - job: ubuntu_1604
   dependsOn: build_test_harness
   displayName: Component Detection - Ubuntu 16.04
@@ -43,15 +48,6 @@ jobs:
     inputs:
       command: install
       workingDir: projects/npm
-  - task: ShellScript@2
-    inputs:
-      scriptPath: set-artifact-name.sh
-      args: $(Build.ArtifactStagingDirectory)
-  - task: ms-vscs-artifact.build-tasks.artifactDropDownloadTask-1.artifactDropDownloadTask@0
-    displayName: 'Download from Artifact Services Drop'
-    inputs:
-      buildNumber: $(myArtifactName)
-      dropServiceURI: 'https://mseng.artifacts.visualstudio.com/DefaultCollection'
 #- job: windows_containerized_job
 #  dependsOn: build_test_harness
 #  displayName: Component Detection - Windows Container 1803

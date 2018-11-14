@@ -4,4 +4,6 @@ $obj = get-content $vstsDrop | convertfrom-json
 
 $url = $obj.VstsDropBuildArtifact.VstsDropUrl
 
-Write-Host $url
+$dropName = $url.Replace("https://mseng.artifacts.visualstudio.com/DefaultCollection/_apis/drop/drops/", "")
+
+Write-Host "##vso[task.setvariable variable=myArtifactName]$($dropName)"
