@@ -42,8 +42,7 @@ jobs:
       buildId: $(BuildId)
       downloadType: 'specific'
     condition: eq(variables['BuildToDownload'], 'specific')
-  - task: ms-vscs-artifact.build-tasks.artifactDropDownloadTask-1.artifactDropDownloadTask@0
-    displayName: 'Download from Artifact Services Drop'
+  - bash: cat $(Build.ArtifactStagingDirectory)/8952ec64-ff08-4c8d-b95a-c03142094db3/VSTSDrop.json
 - job: windows_containerized_job
   dependsOn: build_test_harness
   displayName: Component Detection - Windows Container 1803
