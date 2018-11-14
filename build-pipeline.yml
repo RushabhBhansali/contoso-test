@@ -58,20 +58,25 @@ jobs:
       artifactName: CG
       targetPath: $(Build.ArtifactStagingDirectory)
   - bash: chmod +x $(Build.ArtifactStagingDirectory)/netstandard2.0/Governance.ComponentDetection.Package/linux/MS.VS.Services.Governance.ComponentDetection.Loader && $(Build.ArtifactStagingDirectory)/netstandard2.0/Governance.ComponentDetection.Package/linux/MS.VS.Services.Governance.ComponentDetection.Loader detect --ScanType LogOnly --SourceDirectory $(Build.SourcesDirectory)/projects
-#- job: windows_containerized_job
-#  dependsOn: build_test_harness
-#  displayName: Component Detection - Windows Container 1803
-#  pool:
-#    vmImage: win1803
-#  container: servercore
-#  steps:
-#  - task: NodeTool@0
-#    inputs:
-#      versionSpec: '6.x'
-#  - task: Npm@1
-#    inputs:
-#      command: install
-#      workingDir: projects/npm
+- job: windows_containerized_job
+  dependsOn: build_test_harness
+  displayName: Component Detection - Windows Container 1803
+  pool:
+    vmImage: win1803
+  container: servercore
+  steps:
+  - task: NodeTool@0
+    inputs:
+      versionSpec: '6.x'
+  - task: Npm@1
+    inputs:
+      command: install
+      workingDir: projects/npm
+  - task: DownloadPipelineArtifact@0
+    inputs:
+      artifactName: CG
+      targetPath: $(Build.ArtifactStagingDirectory)
+  - powershell: $(Build.ArtifactStagingDirectory)/netstandard2.0/Governance.ComponentDetection.Package/windows/MS.VS.Services.Governance.ComponentDetection.Loader.exe detect --ScanType LogOnly --SourceDirectory $(Build.SourcesDirectory)/projects
 - job: vs2017_win2016_job
   dependsOn: build_test_harness
   displayName: Component Detection - Windows Server 2016
@@ -90,4 +95,20 @@ jobs:
       artifactName: CG
       targetPath: $(Build.ArtifactStagingDirectory)
   - powershell: $(Build.ArtifactStagingDirectory)/netstandard2.0/Governance.ComponentDetection.Package/windows/MS.VS.Services.Governance.ComponentDetection.Loader.exe detect --ScanType LogOnly --SourceDirectory $(Build.SourcesDirectory)/projects
+- job: macos
+  dependsOn: build_test_harness
+  displayName: Component Detection - MacOS
+  pool:
+    vmImage: macOS-10.13
+  steps:
+  - task: Npm@1
+    inputs:
+      command: install
+      workingDir: projects/npm
+  - task: DownloadPipelineArtifact@0
+    inputs:
+      artifactName: CG
+      targetPath: $(Build.ArtifactStagingDirectory)
+  - bash: chmod +x $(Build.ArtifactStagingDirectory)/netstandard2.0/Governance.ComponentDetection.Package/macos/MS.VS.Services.Governance.ComponentDetection.Loader && $(Build.ArtifactStagingDirectory)/netstandard2.0/Governance.ComponentDetection.Package/macos/MS.VS.Services.Governance.ComponentDetection.Loader detect --ScanType LogOnly --SourceDirectory $(Build.SourcesDirectory)/projects
+
 
