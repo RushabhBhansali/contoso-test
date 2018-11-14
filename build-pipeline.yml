@@ -56,7 +56,7 @@ jobs:
   - task: DownloadPipelineArtifact@0
     inputs:
       artifactName: CG
-
+  - bash: ls -la
 #- job: windows_containerized_job
 #  dependsOn: build_test_harness
 #  displayName: Component Detection - Windows Container 1803
