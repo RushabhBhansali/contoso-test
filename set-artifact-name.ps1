@@ -1,7 +1,5 @@
 get-childitem Env:
 
-Get-ChildItem $env:BUILD_ARTIFACTSTAGINGDIRECTORY -Recurse
-
 Get-ChildItem $env:BUILD_ARTIFACTSTAGINGDIRECTORY -Recurse -Filter VSTSDrop.json
 
 $vstsDrop = (Get-ChildItem $env:BUILD_ARTIFACTSTAGINGDIRECTORY -Recurse -Filter VSTSDrop.json)[0].FullName
