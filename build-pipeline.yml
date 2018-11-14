@@ -38,7 +38,7 @@ jobs:
     inputs:
       buildNumber: $(myArtifactName)
       dropServiceURI: 'https://mseng.artifacts.visualstudio.com/DefaultCollection'
-  - powershell: Get-ChildItem $(Build.ArtifactStagingDirectory) -Recurse
+  - powershell: Get-ChildItem drop -Recurse
 - job: ubuntu_1604
   dependsOn: build_test_harness
   displayName: Component Detection - Ubuntu 16.04
