@@ -39,7 +39,6 @@ jobs:
       buildNumber: $(myArtifactName)
       dropServiceURI: 'https://mseng.artifacts.visualstudio.com/DefaultCollection'
       rootPaths: Release.AnyCPU/Governance.ComponentDetection
-  - powershell: Get-ChildItem drop -Recurse
   - task: PublishPipelineArtifact@0
     inputs:
       artifactName: CG
@@ -54,6 +53,9 @@ jobs:
     inputs:
       command: install
       workingDir: projects/npm
+  - task: DownloadPipelineArtifact@0
+    artifactName: CG
+    
 #- job: windows_containerized_job
 #  dependsOn: build_test_harness
 #  displayName: Component Detection - Windows Container 1803
