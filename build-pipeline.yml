@@ -85,22 +85,9 @@ jobs:
     inputs:
       command: install
       workingDir: projects/npm
-  - task: DownloadBuildArtifacts@0
+  - task: DownloadPipelineArtifact@0
     inputs:
-      buildType: 'specific'
-      project: 'b924d696-3eae-4116-8443-9a18392d8544'
-      pipeline: 6743
-      buildVersionToDownload: 'latest'
-      downloadType: 'specific'
-    condition: eq(variables['BuildToDownload'], 'latest')
-  - task: DownloadBuildArtifacts@0
-    inputs:
-      buildType: 'specific'
-      project: 'b924d696-3eae-4116-8443-9a18392d8544'
-      pipeline: 6743
-      buildVersionToDownload: 'specific'
-      buildId: $(BuildId)
-      downloadType: 'specific'
-    condition: eq(variables['BuildToDownload'], 'specific')
-
+      artifactName: CG
+      targetPath: $(Build.ArtifactStagingDirectory)
+  - powershell: $(Build.ArtifactStagingDirectory)/netstandard2.0/Governance.ComponentDetection.Package/windows/MS.VS.Services.Governance.ComponentDetection.Loader.exe detect --ScanType LogOnly --SourceDirectory $(Build.SourcesDirectory)/projects
 
