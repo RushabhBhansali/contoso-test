@@ -46,7 +46,12 @@ jobs:
     inputs:
       scriptPath: set-artifact-name.sh
       args: $(Build.ArtifactStagingDirectory)
-  - bash: echo $(myArtifactName)
+  - task: ms-vscs-artifact.build-tasks.artifactDropDownloadTask-1.artifactDropDownloadTask@0
+    displayName: 'Download from Artifact Services Drop'
+    inputs:
+      buildNumber: $(myArtifactName)
+      dropServiceURI: 'https://mseng.artifacts.visualstudio.com/DefaultCollection'
+
 #- job: windows_containerized_job
 #  dependsOn: build_test_harness
 #  displayName: Component Detection - Windows Container 1803
