@@ -4,7 +4,8 @@ resources:
     image: microsoft/windowsservercore:1803
 
 variables:
-  BuildIdToDownload: latest
+  BuildToDownload: latest
+  BuildId: 1
 
 jobs:
 - job: build_test_harness
@@ -20,10 +21,25 @@ jobs:
   pool:
     vmImage: ubuntu-16.04
   steps:
-    - task: Npm@1
-      inputs:
-        command: install
-        workingDir: projects/npm
+  - task: Npm@1
+    inputs:
+      command: install
+      workingDir: projects/npm
+  - task: DownloadBuildArtifacts@0
+    inputs:
+      buildType: 'specific'
+      project: 'b924d696-3eae-4116-8443-9a18392d8544'
+      pipeline: 6743
+      buildVersionToDownload: 'latest'
+    condition: eq(variables['BuildToDownload'], 'latest')
+  - task: DownloadBuildArtifacts@0
+    inputs:
+      buildType: 'specific'
+      project: 'b924d696-3eae-4116-8443-9a18392d8544'
+      pipeline: 6743
+      buildVersionToDownload: 'specific'
+      buildId: $(BuildId)
+    condition: eq(variables['BuildToDownload'], 'specific')
 - job: windows_containerized_job
   dependsOn: build_test_harness
   displayName: Component Detection - Windows Container 1803
@@ -56,7 +72,15 @@ jobs:
       buildType: 'specific'
       project: 'b924d696-3eae-4116-8443-9a18392d8544'
       pipeline: 6743
+      buildVersionToDownload: 'latest'
+    condition: eq(variables['BuildToDownload'], 'latest')
+  - task: DownloadBuildArtifacts@0
+    inputs:
+      buildType: 'specific'
+      project: 'b924d696-3eae-4116-8443-9a18392d8544'
+      pipeline: 6743
       buildVersionToDownload: 'specific'
-      buildId: $(BuildIdToDownload)
+      buildId: $(BuildId)
+    condition: eq(variables['BuildToDownload'], 'specific')
 
 
