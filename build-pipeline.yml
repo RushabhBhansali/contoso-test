@@ -40,6 +40,10 @@ jobs:
       dropServiceURI: 'https://mseng.artifacts.visualstudio.com/DefaultCollection'
       rootPaths: Release.AnyCPU/Governance.ComponentDetection
   - powershell: Get-ChildItem drop -Recurse
+  - task: PublishPipelineArtifact@0
+    inputs:
+      artifactName: CG
+      targetPath: $(Build.SourcesDirectory)/drop/Release.AnyCPU/Governance.ComponentDetection
 - job: ubuntu_1604
   dependsOn: build_test_harness
   displayName: Component Detection - Ubuntu 16.04
