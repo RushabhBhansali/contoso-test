@@ -54,8 +54,9 @@ jobs:
       command: install
       workingDir: projects/npm
   - task: DownloadPipelineArtifact@0
-    artifactName: CG
-    
+    inputs:
+      artifactName: CG
+
 #- job: windows_containerized_job
 #  dependsOn: build_test_harness
 #  displayName: Component Detection - Windows Container 1803
