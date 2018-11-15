@@ -1,7 +1,7 @@
 resources:
   containers:
   - container: servercore
-    image: nathansoz/nanoserver-node-1803:1.0
+    image: microsoft/windowsservercore:1803
 
 variables:
   BuildToDownload: latest
@@ -65,11 +65,13 @@ jobs:
     vmImage: win1803
   container: servercore
   steps:
-  #- task: Npm@1
-  #  inputs:
-  #    command: install
-  #    workingDir: projects/npm
-  - powershell: c:/nodejs/npm.cmd install projects/npm
+  - task: NodeTool@0
+    inputs:
+      versionSpec: '6.x'
+  - task: Npm@1
+    inputs:
+      command: install
+      workingDir: projects/npm
   - task: DownloadPipelineArtifact@0
     inputs:
       artifactName: CG
