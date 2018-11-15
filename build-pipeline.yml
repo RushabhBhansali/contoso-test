@@ -1,7 +1,7 @@
 resources:
   containers:
   - container: servercore
-    image: mcr.microsoft.com/powershell:6.1.0-nanoserver-1803
+    image: nathansoz/nanoserver-node-1803:1.0
 
 variables:
   BuildToDownload: latest
@@ -65,9 +65,6 @@ jobs:
     vmImage: win1803
   container: servercore
   steps:
-  - task: NodeTool@0
-    inputs:
-      versionSpec: '6.x'
   - task: Npm@1
     inputs:
       command: install
