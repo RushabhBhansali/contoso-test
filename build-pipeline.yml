@@ -65,10 +65,11 @@ jobs:
     vmImage: win1803
   container: servercore
   steps:
-  - task: Npm@1
-    inputs:
-      command: install
-      workingDir: projects/npm
+  #- task: Npm@1
+  #  inputs:
+  #    command: install
+  #    workingDir: projects/npm
+  - powershell: c:/nodejs/npm.cmd install projects/npm
   - task: DownloadPipelineArtifact@0
     inputs:
       artifactName: CG
