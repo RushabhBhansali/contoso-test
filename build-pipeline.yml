@@ -1,7 +1,7 @@
 resources:
   containers:
   - container: servercore
-    image: microsoft/windowsservercore:1803
+    image: mcr.microsoft.com/powershell:6.1.0-nanoserver-1803
 
 variables:
   BuildToDownload: latest
