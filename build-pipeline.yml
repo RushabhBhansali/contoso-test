@@ -4,8 +4,7 @@ resources:
     image: microsoft/windowsservercore:1803
 
 variables:
-  BuildToDownload: latest
-  BuildId: 1
+  BuildId: $(Governance.BuildId)
 
 jobs:
 - job: build_test_harness
@@ -20,7 +19,7 @@ jobs:
       pipeline: 6743
       buildVersionToDownload: 'latest'
       downloadType: 'specific'
-    condition: eq(variables['BuildToDownload'], 'latest')
+    condition: eq(variables['BuildId'], '')
   - task: DownloadBuildArtifacts@0
     inputs:
       buildType: 'specific'
@@ -29,7 +28,7 @@ jobs:
       buildVersionToDownload: 'specific'
       buildId: $(BuildId)
       downloadType: 'specific'
-    condition: eq(variables['BuildToDownload'], 'specific')
+    condition: ne(variables['BuildId'], '')
   - task: PowerShell@2
     inputs:
       filePath: set-artifact-name.ps1
