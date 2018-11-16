@@ -19,7 +19,7 @@ jobs:
       pipeline: 6743
       buildVersionToDownload: 'latest'
       downloadType: 'specific'
-    condition: eq(variables['BuildId'],)
+    condition: eq(variables['BuildId'], Null)
   - task: DownloadBuildArtifacts@0
     inputs:
       buildType: 'specific'
@@ -28,7 +28,7 @@ jobs:
       buildVersionToDownload: 'specific'
       buildId: $(BuildId)
       downloadType: 'specific'
-    condition: ne(variables['BuildId'], '')
+    condition: ne(variables['BuildId'], Null)
   - task: PowerShell@2
     inputs:
       filePath: set-artifact-name.ps1
