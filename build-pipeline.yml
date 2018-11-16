@@ -19,7 +19,7 @@ jobs:
       pipeline: 6743
       buildVersionToDownload: 'latest'
       downloadType: 'specific'
-    condition: eq(variables['BuildId'], '')
+    condition: eq(variables['BuildId'],)
   - task: DownloadBuildArtifacts@0
     inputs:
       buildType: 'specific'
