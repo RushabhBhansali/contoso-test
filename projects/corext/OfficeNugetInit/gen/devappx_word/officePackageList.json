@@ -1,0 +1,122 @@
+[
+   {
+      "id": "cpprestsdk.v140.winapp.msvcstl.dyn.rt-dyn",
+      "version": "2.6.0",
+      "path": "f:\\nugetcache\\cpprestsdk.v140.winapp.msvcstl.dyn.rt-dyn.2.6.0"
+   },
+   {
+      "id": "DEPControls",
+      "version": "1.17111.171106.2",
+      "path": "f:\\nugetcache\\DEPControls.1.17111.171106.2"
+   },
+   {
+      "id": "Microsoft.Applications.Telemetry.Windows",
+      "version": "1.7.278.5",
+      "path": "f:\\nugetcache\\Microsoft.Applications.Telemetry.Windows.1.7.278.5"
+   },
+   {
+      "id": "microsoft.intl.officeimages",
+      "version": "16.0.11025.31752",
+      "path": "f:\\nugetcache\\microsoft.intl.officeimages.16.0.11025.31752"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.mso.mathautocorrect",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.mso.mathautocorrect.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.mso.userassistance",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.mso.userassistance.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.word.graphics",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.word.graphics.1.0.0"
+   },
+   {
+      "id": "microsoft.officeimages",
+      "version": "16.0.11025.31750",
+      "path": "f:\\nugetcache\\microsoft.officeimages.16.0.11025.31750"
+   },
+   {
+      "id": "Microsoft.VCCompiler.Headers.Office",
+      "version": "14.13.26128.4-Updated",
+      "path": "f:\\nugetcache\\.A\\VCCompiler.Headers.2a3ELSDbwsHpIL_7VWfK4g"
+   },
+   {
+      "id": "Otools.Urt.v45",
+      "version": "1.4.1",
+      "path": "f:\\nugetcache\\Otools.Urt.v45.1.4.1"
+   },
+   {
+      "id": "Perl.ActiveState",
+      "version": "5.16.2",
+      "path": "f:\\nugetcache\\.A\\Perl.ActiveState.89bUEJHAf8XBwsfQaLTsWQ"
+   },
+   {
+      "id": "Perl.ActiveState.Office",
+      "version": "5.16.1",
+      "path": "f:\\nugetcache\\.A\\Perl.ActiveState.89bUEJHAf8XBwsfQaLTsWQ"
+   },
+   {
+      "id": "Perl.ActiveState.Site",
+      "version": "5.16.4",
+      "path": "f:\\nugetcache\\.A\\Perl.ActiveState.89bUEJHAf8XBwsfQaLTsWQ"
+   },
+   {
+      "id": "VCCompiler.Headers",
+      "version": "14.13.26128.1",
+      "path": "f:\\nugetcache\\.A\\VCCompiler.Headers.2a3ELSDbwsHpIL_7VWfK4g"
+   },
+   {
+      "id": "VCCompiler.Libs.arm",
+      "version": "14.13.26128.1",
+      "path": "f:\\nugetcache\\VCCompiler.Libs.arm.14.13.26128.1"
+   },
+   {
+      "id": "VCCompiler.Libs.x64",
+      "version": "14.13.26128.1",
+      "path": "f:\\nugetcache\\VCCompiler.Libs.x64.14.13.26128.1"
+   },
+   {
+      "id": "VCCompiler.Libs.x86",
+      "version": "14.13.26128.1",
+      "path": "f:\\nugetcache\\VCCompiler.Libs.x86.14.13.26128.1"
+   },
+   {
+      "id": "VCCompiler.Tools.arm",
+      "version": "14.13.26128.3",
+      "path": "f:\\nugetcache\\VCCompiler.Tools.arm.14.13.26128.3"
+   },
+   {
+      "id": "VCCompiler.Tools.x64",
+      "version": "14.13.26128.3",
+      "path": "f:\\nugetcache\\VCCompiler.Tools.x64.14.13.26128.3"
+   },
+   {
+      "id": "VCCompiler.Tools.x86",
+      "version": "14.13.26128.4",
+      "path": "f:\\nugetcache\\VCCompiler.Tools.x86.14.13.26128.4"
+   },
+   {
+      "id": "WindowsExtraLibs",
+      "version": "1.0.0.2",
+      "path": "f:\\nugetcache\\WindowsExtraLibs.1.0.0.2"
+   },
+   {
+      "id": "WindowsSDKBin",
+      "version": "10.0.17735.1",
+      "path": "f:\\nugetcache\\WindowsSDKBin.10.0.17735.1"
+   },
+   {
+      "id": "WindowsSDKTools",
+      "version": "10.0.17735",
+      "path": "f:\\nugetcache\\WindowsSDKTools.10.0.17735"
+   }
+]

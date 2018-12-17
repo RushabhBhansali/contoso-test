@@ -1,0 +1,1912 @@
+[
+   {
+      "id": "DocumentFormat.OpenXml",
+      "version": "2.8.1",
+      "path": "f:\\nugetcache\\DocumentFormat.OpenXml.2.8.1"
+   },
+   {
+      "id": "microsoft.intl.officeimages",
+      "version": "16.0.11025.31752",
+      "path": "f:\\nugetcache\\microsoft.intl.officeimages.16.0.11025.31752"
+   },
+   {
+      "id": "Microsoft.MSIX.Packaging",
+      "version": "1.1.23",
+      "path": "f:\\nugetcache\\Microsoft.MSIX.Packaging.1.1.23"
+   },
+   {
+      "id": "Microsoft.ODBC.DriverManager38p",
+      "version": "1.0.3",
+      "path": "f:\\nugetcache\\Microsoft.ODBC.DriverManager38p.1.0.3"
+   },
+   {
+      "id": "Microsoft.Office.SfB.AppSDK",
+      "version": "1.1.0.3423",
+      "path": "f:\\nugetcache\\Microsoft.Office.SfB.AppSDK.1.1.0.3423"
+   },
+   {
+      "id": "microsoft.office.warehouse.access.shellnewintl",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.access.shellnewintl.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.aceredist.eula",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.aceredist.eula.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.ara.templates.arabesqu1",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.ara.templates.arabesqu1.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.ara.templates.arabesqu2",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.ara.templates.arabesqu2.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.ara.templates.arabesqu3",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.ara.templates.arabesqu3.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.asia.access.barcode",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.asia.access.barcode.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.asia.word.addressdoc",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.asia.word.addressdoc.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.asia.word.addressmdb",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.asia.word.addressmdb.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.asia.word.addressxls",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.asia.word.addressxls.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.audiosearch.data",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.audiosearch.data.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.conv.nonbuilt",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.conv.nonbuilt.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.excel.template",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.excel.template.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.fonts.dubai",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.fonts.dubai.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.dataaccess.dcube10dmresources",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.dataaccess.dcube10dmresources.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.dataaccess.dcube10resources",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.dataaccess.dcube10resources.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.excel.prottemplates",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.excel.prottemplates.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.agencyfb",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.agencyfb.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.arialrounded",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.arialrounded.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.baskerville",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.baskerville.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.bellmt",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.bellmt.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.berlinsansfb",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.berlinsansfb.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.bernhardmtcond",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.bernhardmtcond.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.blackadderitc",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.blackadderitc.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.bodonimt",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.bodonimt.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.bodonimtblack",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.bodonimtblack.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.bodonimtcondensed",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.bodonimtcondensed.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.bodonimtpostercompressed",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.bodonimtpostercompressed.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.bookantiqua",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.bookantiqua.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.bookmanoldstyle",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.bookmanoldstyle.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.bradleyhand",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.bradleyhand.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.britannicbold",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.britannicbold.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.broadway",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.broadway.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.brushscriptmt",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.brushscriptmt.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.californiafb",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.californiafb.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.calistomt",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.calistomt.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.castellar",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.castellar.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.centaur",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.centaur.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.century",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.century.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.centurygothic",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.centurygothic.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.centuryschoolbook",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.centuryschoolbook.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.chiller",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.chiller.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.colonnamt",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.colonnamt.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.cooperblack",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.cooperblack.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.copperplategothicbold",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.copperplategothicbold.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.copperplategothiclight",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.copperplategothiclight.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.curlzmt",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.curlzmt.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.edwardianscriptitc",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.edwardianscriptitc.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.elephant",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.elephant.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.engraversmt",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.engraversmt.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.erasbolditc",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.erasbolditc.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.erasdemiitc",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.erasdemiitc.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.eraslightitc",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.eraslightitc.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.erasmeditc",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.erasmeditc.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.felixtiling",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.felixtiling.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.footlightmtlight",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.footlightmtlight.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.forte",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.forte.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.franklingothicbook",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.franklingothicbook.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.franklingothicdemi",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.franklingothicdemi.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.franklingothicdemicond",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.franklingothicdemicond.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.franklingothicheavy",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.franklingothicheavy.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.franklingothicmedcond",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.franklingothicmedcond.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.freestylescript",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.freestylescript.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.frenchscriptmt",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.frenchscriptmt.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.garamond",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.garamond.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.gigi",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.gigi.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.gillsansmt",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.gillsansmt.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.gillsansmtcond",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.gillsansmtcond.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.gillsansmtultrabold",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.gillsansmtultrabold.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.gillsansmtultraboldcond",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.gillsansmtultraboldcond.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.gilsansmtexcondbold",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.gilsansmtexcondbold.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.gloucestermtexcond",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.gloucestermtexcond.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.goudyoldstyle",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.goudyoldstyle.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.goudystout",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.goudystout.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.haettenschweiler",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.haettenschweiler.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.harrington",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.harrington.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.hightowertext",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.hightowertext.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.imprintmtshadow",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.imprintmtshadow.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.jokerman",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.jokerman.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.juiceitc",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.juiceitc.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.kristenitc",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.kristenitc.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.kunstlerscript",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.kunstlerscript.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.lucidabright",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.lucidabright.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.lucidacalligraphy",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.lucidacalligraphy.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.lucidafax",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.lucidafax.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.lucidahandwritting",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.lucidahandwritting.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.lucidasans",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.lucidasans.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.lucidasanstypewriter",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.lucidasanstypewriter.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.magnetobold",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.magnetobold.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.maiandragd",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.maiandragd.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.maturascriptcapitals",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.maturascriptcapitals.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.mistral",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.mistral.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.modernno20",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.modernno20.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.monotypecorsiva",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.monotypecorsiva.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.msoutlook",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.msoutlook.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.niagraengraved",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.niagraengraved.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.niagrasolid",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.niagrasolid.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.ocraext",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.ocraext.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.oldenglishmt",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.oldenglishmt.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.onyx",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.onyx.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.palacescriptmt",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.palacescriptmt.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.papyrus",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.papyrus.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.parchment",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.parchment.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.perpetua",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.perpetua.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.perpetuatiling",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.perpetuatiling.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.playbill",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.playbill.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.poorrichard",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.poorrichard.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.pristina",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.pristina.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.rageitalic",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.rageitalic.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.ravie",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.ravie.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.research",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.research.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.rockwell",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.rockwell.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.rockwellcond",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.rockwellcond.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.rockwellexbold",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.rockwellexbold.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.romaninformal",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.romaninformal.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.scriptmtbold",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.scriptmtbold.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.showcardgothic",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.showcardgothic.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.snap",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.snap.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.stencil",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.stencil.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.tempussansitc",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.tempussansitc.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.twcenmt",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.twcenmt.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.twcenmtcond",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.twcenmtcond.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.twcenmtcondbold",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.twcenmtcondbold.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.twcenmtmed",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.twcenmtmed.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.vinerhanditc",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.vinerhanditc.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.vladimirscript",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.vladimirscript.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.widelatin",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.widelatin.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.wingdings2",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.wingdings2.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.wingdings3",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.wingdings3.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.accessibility",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.accessibility.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.botshitcounter",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.botshitcounter.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.codesnippets",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.codesnippets.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.corebotstyles",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.corebotstyles.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.corebotstylesintl",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.corebotstylesintl.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.coreclient",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.coreclient.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.coreclientintl",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.coreclientintl.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.corewel",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.corewel.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.corewelintl",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.corewelintl.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.csstemplatearcs",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.csstemplatearcs.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.csstemplatebars",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.csstemplatebars.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.csstemplateblocks",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.csstemplateblocks.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.csstemplateblueprnt",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.csstemplateblueprnt.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.csstemplatecapsules",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.csstemplatecapsules.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.csstemplatedowntown",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.csstemplatedowntown.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.csstemplateexpeditn",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.csstemplateexpeditn.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.csstemplatehighway",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.csstemplatehighway.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.csstemplateneon",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.csstemplateneon.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.csstemplatenormal",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.csstemplatenormal.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.csstemplatepoetic",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.csstemplatepoetic.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.csstemplatestreet",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.csstemplatestreet.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.csstemplatesweets",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.csstemplatesweets.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.doclibtemplate1",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.doclibtemplate1.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.doclibtemplate2",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.doclibtemplate2.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.frametemplatebannertoc",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.frametemplatebannertoc.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.frametemplatefooter",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.frametemplatefooter.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.frametemplatefootnote",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.frametemplatefootnote.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.frametemplateheader",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.frametemplateheader.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.frametemplatehorzsplit",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.frametemplatehorzsplit.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.frametemplatenavigation",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.frametemplatenavigation.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.frametemplatetableofcontents",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.frametemplatetableofcontents.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.frametemplatethreelevel",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.frametemplatethreelevel.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.frametemplatetopdown",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.frametemplatetopdown.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.frametemplatevertsplit",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.frametemplatevertsplit.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.ibuttonblanks",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.ibuttonblanks.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.ibuttonblanksintl",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.ibuttonblanksintl.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.images",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.images.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.javaclassbots",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.javaclassbots.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.layouttemplatechcb",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.layouttemplatechcb.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.layouttemplatechlb",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.layouttemplatechlb.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.layouttemplatefp",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.layouttemplatefp.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.layouttemplatehbfl",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.layouttemplatehbfl.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.layouttemplatehbfr",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.layouttemplatehbfr.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.layouttemplatehcrb",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.layouttemplatehcrb.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.layouttemplatehf3c",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.layouttemplatehf3c.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.layouttemplatehflr4",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.layouttemplatehflr4.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.layouttemplatehflrtc2",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.layouttemplatehflrtc2.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.layouttemplatehltrb",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.layouttemplatehltrb.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.layouttemplatehrtlb",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.layouttemplatehrtlb.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.layouttemplatenl",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.layouttemplatenl.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.pagecomponents",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.pagecomponents.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.pagecomponentsexpedia",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.pagecomponentsexpedia.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.pagecomponentsmsn",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.pagecomponentsmsn.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.pagetemplateconfirmation",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.pagetemplateconfirmation.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.pagetemplatefeedback",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.pagetemplatefeedback.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.pagetemplateformswizard",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.pagetemplateformswizard.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.pagetemplateguestbook",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.pagetemplateguestbook.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.pagetemplatenormal",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.pagetemplatenormal.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.pagetemplatetoc",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.pagetemplatetoc.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.schemashtml",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.schemashtml.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.schemasxml",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.schemasxml.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.smartpagetemplate1",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.smartpagetemplate1.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.smartpagetemplate2",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.smartpagetemplate2.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.smartpagetemplate3",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.smartpagetemplate3.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.smartpagetemplate4",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.smartpagetemplate4.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.smartpagetemplate5",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.smartpagetemplate5.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.smartpagetemplate6",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.smartpagetemplate6.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.smartpagetemplate7",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.smartpagetemplate7.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.smartpagetemplate8",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.smartpagetemplate8.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.themeediting",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.themeediting.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.webtemplateempty",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.webtemplateempty.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.webtemplateimportwizard",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.webtemplateimportwizard.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.webtemplatenormal",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.webtemplatenormal.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.webtemplateofficenet",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.webtemplateofficenet.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.webtemplatephotoalbumhorizontal",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.webtemplatephotoalbumhorizontal.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.webtemplatephotoalbummontage",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.webtemplatephotoalbummontage.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.webtemplatephotoalbumslideshow",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.webtemplatephotoalbumslideshow.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.frontpagecore.webtemplatephotoalbumvertical",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.frontpagecore.webtemplatephotoalbumvertical.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.graph.intl",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.graph.intl.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.graphicsfilters.gif",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.graphicsfilters.gif.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.graphicsfilters.jpeg",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.graphicsfilters.jpeg.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.graphicsfilters.png",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.graphicsfilters.png.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.graphicsfilters.wpg",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.graphicsfilters.wpg.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.licensing.xrmms",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.licensing.xrmms.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.lineservices.lineservices3",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.lineservices.lineservices3.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.mapi.intlui",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.mapi.intlui.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.mediastore.publishercore",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.mediastore.publishercore.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.office.dataservices",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.office.dataservices.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.office.equationeditorintl",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.office.equationeditorintl.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.office.mstagpluginlistsdate",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.office.mstagpluginlistsdate.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.office.mstagpluginlistsphone",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.office.mstagpluginlistsphone.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.office.mstagpluginliststime",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.office.mstagpluginliststime.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.office.mstagpluginmetricconvintl",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.office.mstagpluginmetricconvintl.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.onenote.stationery",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.onenote.stationery.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.outlook.addins",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.outlook.addins.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.outlook.basicstationery",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.outlook.basicstationery.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.outlook.core",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.outlook.core.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.outlook.extendedstationery",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.outlook.extendedstationery.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.outlook.intlui",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.outlook.intlui.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.outlook.mapidebug",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.outlook.mapidebug.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.outlook.templates",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.outlook.templates.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.powerpoint.prottemplates",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.powerpoint.prottemplates.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.project.clienttemplatesxlprojplanintl",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.project.clienttemplatesxlprojplanintl.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.project.clienttemplatesxltasklistintl",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.project.clienttemplatesxltasklistintl.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.proofingtools.translationcore",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.proofingtools.translationcore.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.publisher.backgroundscore",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.publisher.backgroundscore.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.publisher.borderartcore",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.publisher.borderartcore.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.publisher.colorconversion",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.publisher.colorconversion.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.publisher.shellnewfile",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.publisher.shellnewfile.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.publisher.specialpaperpreviews",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.publisher.specialpaperpreviews.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.publisher.specialpaperpreviewsa4",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.publisher.specialpaperpreviewsa4.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.publisher.wizardairplaneinstructions",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.publisher.wizardairplaneinstructions.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.publisher.wizardcore",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.publisher.wizardcore.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.publisher.wizardorigamiinstructions",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.publisher.wizardorigamiinstructions.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.publisher.wizardquickpublicationclips",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.publisher.wizardquickpublicationclips.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.sts.clientimportexcel",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.sts.clientimportexcel.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.themes.themefontmappingfile",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.themes.themefontmappingfile.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.userassistance.accesscore",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.userassistance.accesscore.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.userassistance.excelmacro",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.userassistance.excelmacro.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.userassistance.excelsamples",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.userassistance.excelsamples.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.userassistance.mdac",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.userassistance.mdac.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.userassistance.queryhelp",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.userassistance.queryhelp.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.userassistance.sharepointlistcomponent",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.userassistance.sharepointlistcomponent.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.userassistance.webdiscussionshelp",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.userassistance.webdiscussionshelp.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.userassistance.xmlsdk",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.userassistance.xmlsdk.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.visio.basichtm",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.visio.basichtm.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.visio.brainstormingbstormdll",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.visio.brainstormingbstormdll.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.visio.caddrawingfonts",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.visio.caddrawingfonts.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.visio.dbwizuser",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.visio.dbwizuser.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.visio.samples",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.visio.samples.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.word.prottemplates",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.word.prottemplates.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.word.wordmacros",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.word.wordmacros.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.word.xmltowmltransform",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.word.xmltowmltransform.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.intl.spd",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.intl.spd.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.intl.word.overseed",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.intl.word.overseed.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.jpn.fonts.hggothice",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.jpn.fonts.hggothice.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.jpn.fonts.hggothicm",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.jpn.fonts.hggothicm.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.jpn.fonts.hggyoshotai",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.jpn.fonts.hggyoshotai.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.jpn.fonts.hgkyoukashotai",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.jpn.fonts.hgkyoukashotai.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.jpn.fonts.hgmarugothictaipro",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.jpn.fonts.hgmarugothictaipro.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.jpn.fonts.hgminchob",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.jpn.fonts.hgminchob.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.jpn.fonts.hgminchoe",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.jpn.fonts.hgminchoe.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.jpn.fonts.hgsoueikakugothictai",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.jpn.fonts.hgsoueikakugothictai.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.jpn.fonts.hgsoueipoptai",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.jpn.fonts.hgsoueipoptai.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.jpn.fonts.hgsoueipresenseeb",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.jpn.fonts.hgsoueipresenseeb.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.jpn.fonts.hgsoueiseikaishotaipro",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.jpn.fonts.hgsoueiseikaishotaipro.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.jpn.fonts.ocrb",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.jpn.fonts.ocrb.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.jpn.mediastore.postcardwizclipart",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.jpn.mediastore.postcardwizclipart.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.jpn.publisher.webformcontrols",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.jpn.publisher.webformcontrols.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.jpn.publisher.wizardad",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.jpn.publisher.wizardad.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.jpn.publisher.wizardairplane",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.jpn.publisher.wizardairplane.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.jpn.publisher.wizardbanner",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.jpn.publisher.wizardbanner.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.jpn.publisher.wizardbizcard",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.jpn.publisher.wizardbizcard.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.jpn.publisher.wizardbizform",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.jpn.publisher.wizardbizform.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.jpn.publisher.wizardbrochure",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.jpn.publisher.wizardbrochure.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.jpn.publisher.wizardcalendar",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.jpn.publisher.wizardcalendar.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.jpn.publisher.wizardcertificate",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.jpn.publisher.wizardcertificate.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.jpn.publisher.wizardenvelope",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.jpn.publisher.wizardenvelope.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.jpn.publisher.wizardflyer",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.jpn.publisher.wizardflyer.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.jpn.publisher.wizardgift",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.jpn.publisher.wizardgift.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.jpn.publisher.wizardgreetingcard",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.jpn.publisher.wizardgreetingcard.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.jpn.publisher.wizardinvitation",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.jpn.publisher.wizardinvitation.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.jpn.publisher.wizardlabel",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.jpn.publisher.wizardlabel.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.jpn.publisher.wizardletterhead",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.jpn.publisher.wizardletterhead.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.jpn.publisher.wizardmenu",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.jpn.publisher.wizardmenu.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.jpn.publisher.wizardnewsletter",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.jpn.publisher.wizardnewsletter.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.jpn.publisher.wizardorigami",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.jpn.publisher.wizardorigami.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.jpn.publisher.wizardpostcard",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.jpn.publisher.wizardpostcard.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.jpn.publisher.wizardprogram",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.jpn.publisher.wizardprogram.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.jpn.publisher.wizardsign",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.jpn.publisher.wizardsign.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.jpn.publisher.wizardsmartobjects",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.jpn.publisher.wizardsmartobjects.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.jpn.publisher.wizardsmartobjectsweb",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.jpn.publisher.wizardsmartobjectsweb.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.jpn.publisher.wizardweb",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.jpn.publisher.wizardweb.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.jpn.word.catalog1",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.jpn.word.catalog1.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.jpn.word.newdoc",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.jpn.word.newdoc.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.jpn.word.news1",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.jpn.word.news1.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.jpn.word.news2",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.jpn.word.news2.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.jpn.word.overhead1",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.jpn.word.overhead1.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.jpn.word.report1",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.jpn.word.report1.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.jpn.word.report2",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.jpn.word.report2.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.jpn.word.thesis1",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.jpn.word.thesis1.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.jpn.word.thesis2",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.jpn.word.thesis2.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.kohhc.korhanjadictionary",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.kohhc.korhanjadictionary.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.kospeller.dictionary",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.kospeller.dictionary.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.lobi.doc",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.lobi.doc.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.misc.rrloccontent",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.misc.rrloccontent.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.mso.example",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.mso.example.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.mso.mathautocorrect",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.mso.mathautocorrect.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.mso.mstagplugin",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.mso.mstagplugin.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.mso.mstagpluginlistsbiblio",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.mso.mstagpluginlistsbiblio.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.mso.mysharepointsico",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.mso.mysharepointsico.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.mso.userassistance",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.mso.userassistance.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.omex.manifest",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.omex.manifest.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.oms.form",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.oms.form.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.onenote.extras",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.onenote.extras.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.onenote.sections",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.onenote.sections.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.orgchart.producthelp",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.orgchart.producthelp.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.outlook.autodiscover",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.outlook.autodiscover.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.ppt.images",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.ppt.images.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.ppt.templates",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.ppt.templates.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.proof.wordforms",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.proof.wordforms.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.spd",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.spd.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.spd.asppagetemplateconfig",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.spd.asppagetemplateconfig.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.spd.asppagetemplatemaster",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.spd.asppagetemplatemaster.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.spd.asppagetemplatesitemap",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.spd.asppagetemplatesitemap.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.spd.asppagetemplateuserctrl",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.spd.asppagetemplateuserctrl.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.spd.caml2xsl",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.spd.caml2xsl.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.spd.csslayouts",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.spd.csslayouts.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.spd.dhtmlactions",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.spd.dhtmlactions.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.spd.fpdbwiz",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.spd.fpdbwiz.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.spd.msneula",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.spd.msneula.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.spd.pagetemplatedwt",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.spd.pagetemplatedwt.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.spd.pagetemplatejs",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.spd.pagetemplatejs.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.spd.pagetemplatetxt",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.spd.pagetemplatetxt.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.spd.pagetemplatexml",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.spd.pagetemplatexml.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.spd.schemascss",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.spd.schemascss.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.spd.sxs",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.spd.sxs.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.spd.themes",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.spd.themes.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.spd.toolbox",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.spd.toolbox.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.spd.vtidb",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.spd.vtidb.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.spd.workflowtemplateblankwf",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.spd.workflowtemplateblankwf.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.tha.excel.templatethaexpensestatement",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.tha.excel.templatethaexpensestatement.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.tha.excel.templatethainvoice",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.tha.excel.templatethainvoice.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.tha.excel.templatethapurchaseorder",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.tha.excel.templatethapurchaseorder.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.tha.excel.templatethasalesorder",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.tha.excel.templatethasalesorder.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.tha.outlook.basicstationery",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.tha.outlook.basicstationery.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.vsta.infopathhelp",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.vsta.infopathhelp.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.word.asiaennormaldot",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.word.asiaennormaldot.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.word.bibliographysort",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.word.bibliographysort.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.word.calligly",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.word.calligly.1.0.0"
+   },
+   {
+      "id": "microsoft.officeimages",
+      "version": "16.0.11025.31750",
+      "path": "f:\\nugetcache\\microsoft.officeimages.16.0.11025.31750"
+   },
+   {
+      "id": "Microsoft.VCCompiler.Headers.Office",
+      "version": "14.13.26128.4-Updated",
+      "path": "f:\\nugetcache\\.A\\VCCompiler.Headers.2a3ELSDbwsHpIL_7VWfK4g"
+   },
+   {
+      "id": "Office.Sdx.insights.en-us.win32",
+      "version": "1.0.1806.13004",
+      "path": "f:\\nugetcache\\Office.Sdx.insights.en-us.win32.1.0.1806.13004"
+   },
+   {
+      "id": "Office.Sdx.sdx_cardview.en-us.win32",
+      "version": "1.0.1808.15003",
+      "path": "f:\\nugetcache\\Office.Sdx.sdx_cardview.en-us.win32.1.0.1808.15003"
+   },
+   {
+      "id": "Office.Sdx.translator.en-us.win32",
+      "version": "1.0.1806.13004",
+      "path": "f:\\nugetcache\\Office.Sdx.translator.en-us.win32.1.0.1806.13004"
+   },
+   {
+      "id": "OfficeReact.LivePersonaCard",
+      "version": "20180827.4.0",
+      "path": "f:\\nugetcache\\OfficeReact.LivePersonaCard.20180827.4.0"
+   },
+   {
+      "id": "OfficeReact.Win32",
+      "version": "0.2018.109-v2",
+      "path": "f:\\nugetcache\\OfficeReact.Win32.0.2018.109-v2"
+   },
+   {
+      "id": "Otools.Urt.v45",
+      "version": "1.4.1",
+      "path": "f:\\nugetcache\\Otools.Urt.v45.1.4.1"
+   },
+   {
+      "id": "Perl.ActiveState",
+      "version": "5.16.2",
+      "path": "f:\\nugetcache\\.A\\Perl.ActiveState.89bUEJHAf8XBwsfQaLTsWQ"
+   },
+   {
+      "id": "Perl.ActiveState.Office",
+      "version": "5.16.1",
+      "path": "f:\\nugetcache\\.A\\Perl.ActiveState.89bUEJHAf8XBwsfQaLTsWQ"
+   },
+   {
+      "id": "Perl.ActiveState.Site",
+      "version": "5.16.4",
+      "path": "f:\\nugetcache\\.A\\Perl.ActiveState.89bUEJHAf8XBwsfQaLTsWQ"
+   },
+   {
+      "id": "VCCompiler.Headers",
+      "version": "14.13.26128.1",
+      "path": "f:\\nugetcache\\.A\\VCCompiler.Headers.2a3ELSDbwsHpIL_7VWfK4g"
+   },
+   {
+      "id": "VCCompiler.Libs.x64",
+      "version": "14.13.26128.1",
+      "path": "f:\\nugetcache\\VCCompiler.Libs.x64.14.13.26128.1"
+   },
+   {
+      "id": "VCCompiler.Libs.x86",
+      "version": "14.13.26128.1",
+      "path": "f:\\nugetcache\\VCCompiler.Libs.x86.14.13.26128.1"
+   },
+   {
+      "id": "VCCompiler.Tools.x64",
+      "version": "14.13.26128.3",
+      "path": "f:\\nugetcache\\VCCompiler.Tools.x64.14.13.26128.3"
+   },
+   {
+      "id": "VCCompiler.Tools.x86",
+      "version": "14.13.26128.4",
+      "path": "f:\\nugetcache\\VCCompiler.Tools.x86.14.13.26128.4"
+   },
+   {
+      "id": "WindowsExtraLibs",
+      "version": "1.0.0.2",
+      "path": "f:\\nugetcache\\WindowsExtraLibs.1.0.0.2"
+   },
+   {
+      "id": "WindowsSDKBin",
+      "version": "10.0.17735.1",
+      "path": "f:\\nugetcache\\WindowsSDKBin.10.0.17735.1"
+   },
+   {
+      "id": "WindowsSDKTools",
+      "version": "10.0.17735",
+      "path": "f:\\nugetcache\\WindowsSDKTools.10.0.17735"
+   }
+]

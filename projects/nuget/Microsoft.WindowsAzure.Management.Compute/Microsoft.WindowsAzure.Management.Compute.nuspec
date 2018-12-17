@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata minClientVersion="2.5">
+    <id>Microsoft.WindowsAzure.Management.Compute</id>
+    <version>14.0.0</version>
+    <title>Microsoft Azure Compute Management Library</title>
+    <authors>Microsoft</authors>
+    <owners>azure-sdk, Microsoft</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>http://aka.ms/windowsazureapache2</licenseUrl>
+    <projectUrl>https://github.com/WindowsAzure/azure-sdk-for-net</projectUrl>
+    <iconUrl>http://go.microsoft.com/fwlink/?LinkID=288890</iconUrl>
+    <description>Provides virtual machine and hosted service management capabilities to developers. Launch, restart, scale, and manage VMs, hosted services, virtual disks, operating system images, and more.</description>
+    <summary>Provides virtual machine and hosted service management capabilities to developers. Launch, restart, scale, and manage VMs, hosted services, virtual disks, operating system images, and more.</summary>
+    <copyright>Copyright © Microsoft Corporation</copyright>
+    <tags>Microsoft "Microsoft Azure" Azure cloud management "service management" REST HTTP client core common azureofficial windowsazureofficial</tags>
+    <dependencies>
+      <dependency id="Microsoft.Azure.Common" version="[2.0.4, 3.0.0)" />
+    </dependencies>
+    <references>
+      <group targetFramework=".NETPortable0.0-Profile259">
+        <reference file="Microsoft.WindowsAzure.Management.Compute.dll" />
+      </group>
+      <group targetFramework=".NETFramework4.0">
+        <reference file="Microsoft.WindowsAzure.Management.Compute.dll" />
+      </group>
+    </references>
+  </metadata>
+</package>

@@ -1,0 +1,62 @@
+{
+  "name": "@pnpm/assert-project",
+  "description": "Utils for testing projects that use pnpm",
+  "version": "2.0.0",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "private": true,
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib/"
+  ],
+  "devDependencies": {
+    "@pnpm/assert-project": "link:",
+    "rimraf": "2.6.2",
+    "ts-node": "7.0.1",
+    "tslint": "5.11.0",
+    "typescript": "3.1.6"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "homepage": "https://github.com/pnpm/pnpm/blob/master/privatePackages/assert-project#readme",
+  "keywords": [],
+  "license": "MIT",
+  "engines": {
+    "node": ">=6"
+  },
+  "repository": "https://github.com/pnpm/pnpm/blob/master/privatePackages/assert-project",
+  "scripts": {
+    "commit": "commit",
+    "commitmsg": "commitlint -e",
+    "lint": "tslint -c tslint.json --project .",
+    "lint-test": "tslint -c tslint.json --project test",
+    "tsc": "rimraf lib && tsc",
+    "prepublishOnly": "npm run tsc",
+    "pretest": "cd test/fixture/project && pnpm i --force --no-shared-workspace-shrinkwrap && cd ../../..",
+    "test": "npm run lint && npm run lint-test && npm run tsc && ts-node test"
+  },
+  "dependencies": {
+    "@pnpm/modules-yaml": "2.0.1",
+    "@types/mz": "0.0.32",
+    "@types/node": "10.12.11",
+    "@types/path-exists": "3.0.0",
+    "@types/tape": "4.2.32",
+    "@types/write-pkg": "3.1.0",
+    "is-windows": "1.0.2",
+    "isexe": "2.0.0",
+    "mz": "2.7.0",
+    "path-exists": "3.0.0",
+    "read-yaml-file": "1.1.0",
+    "tape": "4.9.1",
+    "util.promisify": "1.0.0",
+    "write-pkg": "3.2.0"
+  }
+}

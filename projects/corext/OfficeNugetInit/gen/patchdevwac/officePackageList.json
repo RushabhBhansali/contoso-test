@@ -1,0 +1,1002 @@
+[
+   {
+      "id": "BPerfCoreCLRProfiler",
+      "version": "2018.6.9.1",
+      "path": "f:\\nugetcache\\BPerfCoreCLRProfiler.2018.6.9.1"
+   },
+   {
+      "id": "BPerfCPUSamplesCollector",
+      "version": "2018.10.9.1",
+      "path": "f:\\nugetcache\\BPerfCPUSamplesCollector.2018.10.9.1"
+   },
+   {
+      "id": "BPerfLogExtractor",
+      "version": "2018.10.8.1",
+      "path": "f:\\nugetcache\\BPerfLogExtractor.2018.10.8.1"
+   },
+   {
+      "id": "BPerfWebViewer",
+      "version": "2017.9.28.1",
+      "path": "f:\\nugetcache\\BPerfWebViewer.2017.9.28.1"
+   },
+   {
+      "id": "microsoft.intl.officeimages",
+      "version": "16.0.11025.31752",
+      "path": "f:\\nugetcache\\microsoft.intl.officeimages.16.0.11025.31752"
+   },
+   {
+      "id": "Microsoft.Office.Common",
+      "version": "16.0.9311.26511",
+      "path": "f:\\nugetcache\\Microsoft.Office.Common.16.0.9311.26511"
+   },
+   {
+      "id": "Microsoft.Office.Ideas",
+      "version": "1.0.18290.1046",
+      "path": "f:\\nugetcache\\Microsoft.Office.Ideas.1.0.18290.1046"
+   },
+   {
+      "id": "Microsoft.Office.Infrared",
+      "version": "1.1.72",
+      "path": "f:\\nugetcache\\Microsoft.Office.Infrared.1.1.72"
+   },
+   {
+      "id": "Microsoft.Office.Powerpoint.Online",
+      "version": "16.0.8808.3000",
+      "path": "f:\\nugetcache\\Microsoft.Office.Powerpoint.Online.16.0.8808.3000"
+   },
+   {
+      "id": "Microsoft.Office.ServiceInfrastructure.ULS",
+      "version": "16.0.10315.35775",
+      "path": "f:\\nugetcache\\Microsoft.Office.ServiceInfrastructure.ULS.16.0.10315.35775"
+   },
+   {
+      "id": "microsoft.office.warehouse.ara.fonts.arabtyp",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.ara.fonts.arabtyp.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.ara.fonts.core",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.ara.fonts.core.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.bibls.workbooktemplates",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.bibls.workbooktemplates.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.fonts.andalus",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.fonts.andalus.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.fonts.aparajita",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.fonts.aparajita.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.fonts.arabtype",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.fonts.arabtype.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.fonts.chsfzyaoti",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.fonts.chsfzyaoti.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.fonts.chssimli",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.fonts.chssimli.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.fonts.chsstcaiyun",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.fonts.chsstcaiyun.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.fonts.chsstfangs",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.fonts.chsstfangs.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.fonts.chssthupo",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.fonts.chssthupo.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.fonts.chsstkaiti",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.fonts.chsstkaiti.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.fonts.chsstliti",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.fonts.chsstliti.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.fonts.chsstsong",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.fonts.chsstsong.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.fonts.chsstxihei",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.fonts.chsstxihei.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.fonts.chsstxingk",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.fonts.chsstxingk.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.fonts.chsstxinw",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.fonts.chsstxinw.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.fonts.chsstzhongs",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.fonts.chsstzhongs.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.fonts.chsyouyuan",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.fonts.chsyouyuan.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.fonts.comicsansmsitalic",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.fonts.comicsansmsitalic.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.fonts.eurostile",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.fonts.eurostile.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.fonts.georgia",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.fonts.georgia.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.fonts.kokila",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.fonts.kokila.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.fonts.majalla",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.fonts.majalla.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.fonts.newsgothicmt",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.fonts.newsgothicmt.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.fonts.pala",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.fonts.pala.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.fonts.simpo",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.fonts.simpo.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.fonts.taile",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.fonts.taile.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.fonts.trado",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.fonts.trado.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.fonts.urdtype",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.fonts.urdtype.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.fonts.utsaah",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.fonts.utsaah.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.fonts.yugothic",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.fonts.yugothic.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.fonts.yumincho",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.fonts.yumincho.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.agencyfb",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.agencyfb.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.arialrounded",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.arialrounded.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.arialuni",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.arialuni.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.baskerville",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.baskerville.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.bellmt",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.bellmt.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.berlinsansfb",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.berlinsansfb.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.bernhardmtcond",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.bernhardmtcond.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.blackadderitc",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.blackadderitc.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.bodonimt",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.bodonimt.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.bodonimtblack",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.bodonimtblack.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.bodonimtcondensed",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.bodonimtcondensed.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.bodonimtpostercompressed",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.bodonimtpostercompressed.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.bookantiqua",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.bookantiqua.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.bookmanoldstyle",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.bookmanoldstyle.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.bradleyhand",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.bradleyhand.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.britannicbold",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.britannicbold.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.broadway",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.broadway.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.brushscriptmt",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.brushscriptmt.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.californiafb",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.californiafb.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.calistomt",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.calistomt.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.castellar",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.castellar.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.centaur",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.centaur.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.century",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.century.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.centurygothic",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.centurygothic.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.centuryschoolbook",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.centuryschoolbook.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.chiller",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.chiller.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.colonnamt",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.colonnamt.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.cooperblack",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.cooperblack.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.copperplategothicbold",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.copperplategothicbold.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.copperplategothiclight",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.copperplategothiclight.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.curlzmt",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.curlzmt.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.edwardianscriptitc",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.edwardianscriptitc.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.elephant",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.elephant.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.engraversmt",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.engraversmt.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.erasbolditc",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.erasbolditc.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.erasdemiitc",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.erasdemiitc.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.eraslightitc",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.eraslightitc.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.erasmeditc",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.erasmeditc.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.felixtiling",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.felixtiling.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.footlightmtlight",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.footlightmtlight.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.forte",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.forte.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.franklingothicbook",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.franklingothicbook.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.franklingothicdemi",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.franklingothicdemi.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.franklingothicdemicond",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.franklingothicdemicond.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.franklingothicheavy",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.franklingothicheavy.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.franklingothicmedcond",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.franklingothicmedcond.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.freestylescript",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.freestylescript.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.frenchscriptmt",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.frenchscriptmt.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.garamond",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.garamond.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.gigi",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.gigi.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.gillsansmt",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.gillsansmt.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.gillsansmtcond",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.gillsansmtcond.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.gillsansmtultrabold",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.gillsansmtultrabold.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.gillsansmtultraboldcond",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.gillsansmtultraboldcond.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.gilsansmtexcondbold",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.gilsansmtexcondbold.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.gloucestermtexcond",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.gloucestermtexcond.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.goudyoldstyle",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.goudyoldstyle.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.goudystout",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.goudystout.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.haettenschweiler",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.haettenschweiler.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.harrington",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.harrington.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.hightowertext",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.hightowertext.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.imprintmtshadow",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.imprintmtshadow.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.jokerman",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.jokerman.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.juiceitc",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.juiceitc.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.kristenitc",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.kristenitc.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.kunstlerscript",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.kunstlerscript.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.lucidabright",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.lucidabright.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.lucidacalligraphy",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.lucidacalligraphy.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.lucidafax",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.lucidafax.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.lucidahandwritting",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.lucidahandwritting.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.lucidasans",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.lucidasans.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.lucidasanstypewriter",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.lucidasanstypewriter.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.magnetobold",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.magnetobold.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.maiandragd",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.maiandragd.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.maturascriptcapitals",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.maturascriptcapitals.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.mistral",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.mistral.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.modernno20",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.modernno20.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.monotypecorsiva",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.monotypecorsiva.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.msoutlook",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.msoutlook.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.niagraengraved",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.niagraengraved.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.niagrasolid",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.niagrasolid.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.ocraext",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.ocraext.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.oldenglishmt",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.oldenglishmt.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.onyx",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.onyx.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.palacescriptmt",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.palacescriptmt.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.papyrus",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.papyrus.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.perpetua",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.perpetua.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.perpetuatiling",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.perpetuatiling.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.playbill",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.playbill.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.pristina",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.pristina.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.rageitalic",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.rageitalic.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.research",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.research.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.rockwell",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.rockwell.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.rockwellcond",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.rockwellcond.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.rockwellexbold",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.rockwellexbold.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.scriptmtbold",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.scriptmtbold.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.snap",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.snap.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.stencil",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.stencil.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.tempussansitc",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.tempussansitc.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.twcenmt",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.twcenmt.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.twcenmtcond",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.twcenmtcond.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.twcenmtcondbold",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.twcenmtcondbold.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.twcenmtmed",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.twcenmtmed.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.vinerhanditc",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.vinerhanditc.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.vladimirscript",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.vladimirscript.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.widelatin",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.widelatin.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.wingdings2",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.wingdings2.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.global.fonts.wingdings3",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.global.fonts.wingdings3.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.jpn.fonts.hggothice",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.jpn.fonts.hggothice.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.jpn.fonts.hggothicm",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.jpn.fonts.hggothicm.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.jpn.fonts.hggyoshotai",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.jpn.fonts.hggyoshotai.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.jpn.fonts.hgkyoukashotai",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.jpn.fonts.hgkyoukashotai.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.jpn.fonts.hgmarugothictaipro",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.jpn.fonts.hgmarugothictaipro.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.jpn.fonts.hgminchob",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.jpn.fonts.hgminchob.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.jpn.fonts.hgminchoe",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.jpn.fonts.hgminchoe.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.jpn.fonts.hgsoueikakugothictai",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.jpn.fonts.hgsoueikakugothictai.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.jpn.fonts.hgsoueipoptai",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.jpn.fonts.hgsoueipoptai.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.jpn.fonts.hgsoueipresenseeb",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.jpn.fonts.hgsoueipresenseeb.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.jpn.fonts.hgsoueiseikaishotaipro",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.jpn.fonts.hgsoueiseikaishotaipro.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.jpn.fonts.ocrb",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.jpn.fonts.ocrb.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.kor.fonts.amir",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.kor.fonts.amir.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.kor.fonts.headliner",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.kor.fonts.headliner.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.kor.fonts.hmfmold",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.kor.fonts.hmfmold.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.kor.fonts.hmmagicche",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.kor.fonts.hmmagicche.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.kor.fonts.humanmoumtandhumanexpo",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.kor.fonts.humanmoumtandhumanexpo.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.kor.fonts.hygraphicm",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.kor.fonts.hygraphicm.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.kor.fonts.hygungseob",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.kor.fonts.hygungseob.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.kor.fonts.hygyeongothik",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.kor.fonts.hygyeongothik.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.kor.fonts.hygyeonmyeongjo",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.kor.fonts.hygyeonmyeongjo.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.kor.fonts.hyheadlinem",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.kor.fonts.hyheadlinem.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.kor.fonts.hymiddlegothik",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.kor.fonts.hymiddlegothik.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.kor.fonts.hymokakpimeb",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.kor.fonts.hymokakpimeb.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.kor.fonts.hysinmyeongjo",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.kor.fonts.hysinmyeongjo.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.kor.fonts.hyyatunsemulm",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.kor.fonts.hyyatunsemulm.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.kor.fonts.hyyupsum",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.kor.fonts.hyyupsum.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.kor.fonts.newgulim",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.kor.fonts.newgulim.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.kor.fonts.pyunjir",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.kor.fonts.pyunjir.1.0.0"
+   },
+   {
+      "id": "microsoft.office.warehouse.kospeller.dictionary",
+      "version": "1.0.0",
+      "path": "f:\\nugetcache\\microsoft.office.warehouse.kospeller.dictionary.1.0.0"
+   },
+   {
+      "id": "Microsoft.Office.Web.CollabService.AppWorkerTestingInfrastructure",
+      "version": "1.1.15",
+      "path": "f:\\nugetcache\\Microsoft.Office.Web.CollabService.AppWorkerTestingInfrastructure.1.1.15"
+   },
+   {
+      "id": "Microsoft.Office.Web.CollabService.WacAp",
+      "version": "16.0.1808.205",
+      "path": "f:\\nugetcache\\Microsoft.Office.Web.CollabService.WacAp.16.0.1808.205"
+   },
+   {
+      "id": "microsoft.officeimages",
+      "version": "16.0.11025.31750",
+      "path": "f:\\nugetcache\\microsoft.officeimages.16.0.11025.31750"
+   },
+   {
+      "id": "Microsoft.OfficeMarketplace.OMEXRegional",
+      "version": "1.0.426",
+      "path": "f:\\nugetcache\\Microsoft.OfficeMarketplace.OMEXRegional.1.0.426"
+   },
+   {
+      "id": "Microsoft.ULS",
+      "version": "16.0.10315.35775",
+      "path": "f:\\nugetcache\\Microsoft.ULS.16.0.10315.35775"
+   },
+   {
+      "id": "Microsoft.VCCompiler.Headers.Office",
+      "version": "14.13.26128.4-Updated",
+      "path": "f:\\nugetcache\\.A\\VCCompiler.Headers.2a3ELSDbwsHpIL_7VWfK4g"
+   },
+   {
+      "id": "Newtonsoft.Json",
+      "version": "9.0.1",
+      "path": "f:\\nugetcache\\Newtonsoft.Json.9.0.1"
+   },
+   {
+      "id": "OfficeBrowserFeedback",
+      "version": "1.0.5",
+      "path": "f:\\nugetcache\\OfficeBrowserFeedback.1.0.5"
+   },
+   {
+      "id": "Otools.Urt.v45",
+      "version": "1.4.1",
+      "path": "f:\\nugetcache\\Otools.Urt.v45.1.4.1"
+   },
+   {
+      "id": "Perl.ActiveState",
+      "version": "5.16.2",
+      "path": "f:\\nugetcache\\.A\\Perl.ActiveState.89bUEJHAf8XBwsfQaLTsWQ"
+   },
+   {
+      "id": "Perl.ActiveState.Office",
+      "version": "5.16.1",
+      "path": "f:\\nugetcache\\.A\\Perl.ActiveState.89bUEJHAf8XBwsfQaLTsWQ"
+   },
+   {
+      "id": "Perl.ActiveState.Site",
+      "version": "5.16.4",
+      "path": "f:\\nugetcache\\.A\\Perl.ActiveState.89bUEJHAf8XBwsfQaLTsWQ"
+   },
+   {
+      "id": "System.Collections.Immutable",
+      "version": "1.1.37",
+      "path": "f:\\nugetcache\\System.Collections.Immutable.1.1.37"
+   },
+   {
+      "id": "VCCompiler.Headers",
+      "version": "14.13.26128.1",
+      "path": "f:\\nugetcache\\.A\\VCCompiler.Headers.2a3ELSDbwsHpIL_7VWfK4g"
+   },
+   {
+      "id": "VCCompiler.Libs.x64",
+      "version": "14.13.26128.1",
+      "path": "f:\\nugetcache\\VCCompiler.Libs.x64.14.13.26128.1"
+   },
+   {
+      "id": "VCCompiler.Tools.x64",
+      "version": "14.13.26128.3",
+      "path": "f:\\nugetcache\\VCCompiler.Tools.x64.14.13.26128.3"
+   },
+   {
+      "id": "WindowsExtraLibs",
+      "version": "1.0.0.2",
+      "path": "f:\\nugetcache\\WindowsExtraLibs.1.0.0.2"
+   },
+   {
+      "id": "WindowsSDKBin",
+      "version": "10.0.17735.1",
+      "path": "f:\\nugetcache\\WindowsSDKBin.10.0.17735.1"
+   },
+   {
+      "id": "WindowsSDKTools",
+      "version": "10.0.17735",
+      "path": "f:\\nugetcache\\WindowsSDKTools.10.0.17735"
+   }
+]

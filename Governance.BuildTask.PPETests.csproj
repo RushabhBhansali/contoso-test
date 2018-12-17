@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TestProjectType>UnitTest</TestProjectType>
+    <TestLevel>L0</TestLevel>
+    <ProjectGuid>{95c8e34e-5895-4c7e-8c7e-c300a114a1e5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <OutputPath>./bin</OutputPath>
+    <RootNamespace>Governance.BuildTask.PPETests</RootNamespace>
+    <AssemblyName>Governance.BuildTask.PPETests</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.3.0" />
+    <PackageReference Include="MSTest.TestAdapter" Version="1.1.18" />
+    <PackageReference Include="MSTest.TestFramework" Version="1.1.18" />
+  </ItemGroup>
+</Project>

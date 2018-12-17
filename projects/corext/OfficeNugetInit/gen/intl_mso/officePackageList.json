@@ -1,0 +1,77 @@
+[
+   {
+      "id": "androidndk",
+      "version": "16.1.1",
+      "path": "f:\\nugetcache\\androidndk.16.1.1"
+   },
+   {
+      "id": "androidsdk",
+      "version": "28.0.1",
+      "path": "f:\\nugetcache\\androidsdk.28.0.1"
+   },
+   {
+      "id": "AndroidTestLibraries",
+      "version": "1.0.2",
+      "path": "f:\\nugetcache\\AndroidTestLibraries.1.0.2"
+   },
+   {
+      "id": "EsrpClient",
+      "version": "1.0.27.1",
+      "path": "f:\\nugetcache\\EsrpClient.1.0.27.1"
+   },
+   {
+      "id": "gradle",
+      "version": "4.3.1",
+      "path": "f:\\nugetcache\\gradle.4.3.1"
+   },
+   {
+      "id": "jacoco",
+      "version": "0.7.4.1",
+      "path": "f:\\nugetcache\\jacoco.0.7.4.1"
+   },
+   {
+      "id": "jdk",
+      "version": "1.8.3",
+      "path": "f:\\nugetcache\\jdk.1.8.3"
+   },
+   {
+      "id": "Microsoft.Office.Crossplat.Winsdk.Android",
+      "version": "10.17620.3",
+      "path": "f:\\nugetcache\\Microsoft.Office.Crossplat.Winsdk.Android.10.17620.3"
+   },
+   {
+      "id": "Microsoft.Office.IconCompiler",
+      "version": "1.0.3",
+      "path": "f:\\nugetcache\\Microsoft.Office.IconCompiler.1.0.3"
+   },
+   {
+      "id": "microsoft.windows.dbg.srcsrv",
+      "version": "10.0.17074.10021",
+      "path": "f:\\nugetcache\\microsoft.windows.dbg.srcsrv.10.0.17074.10021"
+   },
+   {
+      "id": "MINGWPERL",
+      "version": "5.8.8",
+      "path": "f:\\nugetcache\\MINGWPERL.5.8.8"
+   },
+   {
+      "id": "Office.Signing",
+      "version": "1.0.14",
+      "path": "f:\\nugetcache\\Office.Signing.1.0.14"
+   },
+   {
+      "id": "Perl.ActiveState",
+      "version": "5.16.2",
+      "path": "f:\\nugetcache\\.A\\Perl.ActiveState.89bUEJHAf8XBwsfQaLTsWQ"
+   },
+   {
+      "id": "Perl.ActiveState.Office",
+      "version": "5.16.1",
+      "path": "f:\\nugetcache\\.A\\Perl.ActiveState.89bUEJHAf8XBwsfQaLTsWQ"
+   },
+   {
+      "id": "Perl.ActiveState.Site",
+      "version": "5.16.4",
+      "path": "f:\\nugetcache\\.A\\Perl.ActiveState.89bUEJHAf8XBwsfQaLTsWQ"
+   }
+]
