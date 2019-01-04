@@ -50,7 +50,7 @@ namespace Governance.BuildTask.PPETests
             if (errorIndex >= 0)
             {
                 // prints out the line that the error occured.
-                string errorMessage = $"An Error was found: {this.newLogFileContents.Substring(errorIndex, this.newLogFileContents.IndexOf('\n', errorIndex))}";
+                string errorMessage = $"An Error was found: {this.newLogFileContents.Substring(errorIndex, 200)}";
                 throw new Exception(errorMessage);
             }
         }
@@ -65,7 +65,7 @@ namespace Governance.BuildTask.PPETests
             Dictionary<string, RegistrationRequest> componentDictionary = this.NewManifestRegistrations.ToDictionary(x => x.Component.ToString(), x => x);
             foreach (var oldRegistrationRequest in OldManifestRegistrations)
             {
-                Assert.IsTrue(componentDictionary.TryGetValue(oldRegistrationRequest.Component.ToString(), out var registrationRequest));
+                Assert.IsTrue(componentDictionary.TryGetValue(oldRegistrationRequest.Component.ToString(), out var registrationRequest), $"The registration request for {oldRegistrationRequest.Component.ToString()} was not present in the manifest file. Verify this is expected behavior before proceeding");
                 Assert.AreEqual(registrationRequest.Component.ToString(), oldRegistrationRequest.Component.ToString(), $"Registration for component: {registrationRequest.Component} does not match");
                 Assert.AreEqual(registrationRequest.DevelopmentDependency, oldRegistrationRequest.DevelopmentDependency, $"Registration for component: {registrationRequest.Component} does not match");
                 Assert.AreEqual(registrationRequest.ForgeId, oldRegistrationRequest.ForgeId, $"Registration for component: {registrationRequest.Component} does not match");
@@ -111,21 +111,21 @@ namespace Governance.BuildTask.PPETests
                     float newTime = float.Parse(match.Groups[1].Value);
                     if (newTime > oldTime)
                     {
-                        Assert.AreEqual(oldTime, newTime, Math.Max(2, oldTime * 0.10), "Total Time take increased by a large amount. Please verify before continuing.");
+                        Assert.AreEqual(oldTime, newTime, Math.Max(2, oldTime * 0.10), "Total Time taken increased by a large amount. Please verify before continuing.");
                     }
                 }
                 else
                 {
                     string detectorId = match.Groups[2].Value;
                     
-                    if (detectorTimes.TryGetValue(detectorId, out var oldTime))
-                    {
-                        float newTime = float.Parse(match.Groups[3].Value);
-                        if (newTime > oldTime)
-                        {
-                            Assert.AreEqual(oldTime, float.Parse(match.Groups[3].Value), Math.Max(5, oldTime * 0.10));
-                        }
-                    }
+                    // if (detectorTimes.TryGetValue(detectorId, out var oldTime))
+                    //{
+                    //   float newTime = float.Parse(match.Groups[3].Value);
+                    //    if (newTime > oldTime)
+                    //    {
+                    //        Assert.AreEqual(oldTime, float.Parse(match.Groups[3].Value), Math.Max(5, oldTime * 0.10), $"the time taken for detector {detectorId} increased by a large amount. Please verify this is expected before continuing.");
+                    //    }
+                    // }
                     int newCount = int.Parse(match.Groups[4].Value);
                     if (detectorCounts.TryGetValue(detectorId, out var oldCount))
                     {
@@ -156,7 +156,7 @@ namespace Governance.BuildTask.PPETests
             {
                 var newDetector = newDetectors.FirstOrDefault(det => det.DetectorId == cd.DetectorId);
                 Assert.IsNotNull(newDetector, $"the detector {cd.DetectorId} was lost, verify this is expected behavior");
-                Assert.IsTrue(newDetector.Version >= cd.Version);
+                Assert.IsTrue(newDetector.Version >= cd.Version, $"the version for detector {cd.DetectorId} should not have been reduced. please check all detector versions and verify this behavior.");
                 if (newDetector.Version > cd.Version)
                 {
                     bumpedDetectorVersions.Add(cd.DetectorId);
