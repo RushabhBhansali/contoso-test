@@ -1,7 +1,7 @@
 resources:
   containers:
-  - container: servercore
-    image: microsoft/windowsservercore:1803
+  - container: NanoServer
+    image: microsoft/windowsservercore@sha256:11827f8ee0c02106489e553be170c083381ee362687f0ae097a2ac5482b72778
 
 variables:
   EnableDetectorPip: true
@@ -80,7 +80,7 @@ jobs:
   displayName: Component Detection - Windows Container 1803
   pool:
     vmImage: win1803
-  container: servercore
+  container: NanoServer
   steps:
   - task: NodeTool@0
     inputs:

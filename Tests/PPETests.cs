@@ -81,7 +81,7 @@ namespace Governance.BuildTask.PPETests
             // if some are new, check if version of detector is updated. if it isn't error 
             // Run times should be fairly close to identical. errors if there is an increase of more than 5%
             ProcessDetectorVersions();
-            string regexPattern = @"Detection time: (\w+\.\w+) seconds. |(\w+) *\|(\w+\.*\w*) seconds *\|(\d+)";
+            string regexPattern = @"Detection time: (\w+\.\w+) seconds. |(\w+ *[\w()]+) *\|(\w+\.*\w*) seconds *\|(\d+)";
             var oldMatches = Regex.Matches(this.oldLogFileContents, regexPattern);
             var newMatches = Regex.Matches(this.newLogFileContents, regexPattern);
             Assert.IsTrue(newMatches.Count >= oldMatches.Count, "A detector was lost, make sure this was intentional.");
@@ -100,7 +100,9 @@ namespace Governance.BuildTask.PPETests
                     detectorCounts.Add(detectorId, int.Parse(match.Groups[4].Value));
                 }
             }
-
+            // fail at the end to gather all failures instead of just the first.
+            bool failed = false;
+            string failureMessage = "";
             foreach (Match match in newMatches)
             {
                 // for each detector and overall, make sure the time doesn't increase by more than 10%
@@ -109,9 +111,10 @@ namespace Governance.BuildTask.PPETests
                 {
                     detectorTimes.TryGetValue("TotalTime", out var oldTime);
                     float newTime = float.Parse(match.Groups[1].Value);
-                    if (newTime > oldTime)
+                    if (newTime > oldTime + Math.Max(5, oldTime * 0.10))
                     {
-                        Assert.AreEqual(oldTime, newTime, Math.Max(2, oldTime * 0.10), "Total Time taken increased by a large amount. Please verify before continuing.");
+                        failed = true;
+                        failureMessage += $"Total Time take increased by a large amount. Please verify before continuing. old time: {oldTime}, new time: {newTime} \n";
                     }
                 }
                 else
@@ -126,17 +129,24 @@ namespace Governance.BuildTask.PPETests
                     //        Assert.AreEqual(oldTime, float.Parse(match.Groups[3].Value), Math.Max(5, oldTime * 0.10), $"the time taken for detector {detectorId} increased by a large amount. Please verify this is expected before continuing.");
                     //    }
                     // }
-                    int newCount = int.Parse(match.Groups[4].Value);
+
+                    int newCount = int.Parse(match.Groups[4].Value);                  
                     if (detectorCounts.TryGetValue(detectorId, out var oldCount))
                     {
-                        Assert.IsTrue(newCount >= oldCount, $"Components were lost for detector {detectorId}. Verify this is expected behavior.");
-                        if (newCount > oldCount)
+                        if (newCount < oldCount)
                         {
-                            Assert.IsTrue(bumpedDetectorVersions.Contains(detectorId), $"New Components were found for detector { detectorId }, but the detector version was not updated.");
+                            failed = true;
+                            failureMessage += $"\n {oldCount-newCount} Components were lost for detector {detectorId}. Verify this is expected behavior. \n Old Count: {oldCount}, PPE Count: {newCount}";
+                        }
+                        if (newCount > oldCount && !bumpedDetectorVersions.Contains(detectorId))
+                        {
+                            failed = true;
+                            failureMessage += $"\n {newCount-oldCount} New Components were found for detector { detectorId }, but the detector version was not updated.";
                         }
                     }
                 }
             }
+            Assert.IsFalse(failed, failureMessage);
         }
 
         [TestMethod]
@@ -151,18 +161,33 @@ namespace Governance.BuildTask.PPETests
         {
             var oldDetectors = this.OldMetadata.SnapshotInformation.ComponentDetectors;
             var newDetectors = this.NewMetadata.SnapshotInformation.ComponentDetectors;
+            bool failed = false;
+            string failureMessage = "";
             bumpedDetectorVersions = new List<string>();
             foreach (ComponentDetector cd in oldDetectors)
             {
                 var newDetector = newDetectors.FirstOrDefault(det => det.DetectorId == cd.DetectorId);
-                Assert.IsNotNull(newDetector, $"the detector {cd.DetectorId} was lost, verify this is expected behavior");
-                Assert.IsTrue(newDetector.Version >= cd.Version, $"the version for detector {cd.DetectorId} should not have been reduced. please check all detector versions and verify this behavior.");
+                if (newDetector == null) {
+                    failed = true;
+                    failureMessage += $"the detector {cd.DetectorId} was lost, verify this is expected behavior";
+                    continue;
+                }
+                if (newDetector.Version < cd.Version){
+                    failed = true;
+                    failureMessage += $"the version for detector {cd.DetectorId} was unexpectedly reduced. please check all detector versions and verify this behavior.";
+                    continue;
+                } 
                 if (newDetector.Version > cd.Version)
                 {
                     bumpedDetectorVersions.Add(cd.DetectorId);
                 }
-                Assert.IsTrue(cd.SupportedComponentTypes.All(type => newDetector.SupportedComponentTypes.Contains(type)), $"the detector {cd.DetectorId} has lost suppported component types. Verify this is expected behavior.");
+                if (!cd.SupportedComponentTypes.All(type => newDetector.SupportedComponentTypes.Contains(type))){
+                    failed = true;
+                    failureMessage += $"the detector {cd.DetectorId} has lost suppported component types. Verify this is expected behavior.";
+                    continue;
+                };
             }
+            Assert.IsFalse(failed, failureMessage);
         }
     }
 }
