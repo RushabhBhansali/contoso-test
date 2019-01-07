@@ -106,13 +106,6 @@ jobs:
       version: '2.1.402' 
   - script: dotnet build
     displayName: Build Test Project
-  - task: Maven@3
-    displayName: 'Maven projects\maven\pom.xml'
-    inputs:
-      mavenPomFile: 'projects/maven/pom.xml'
-      goals: 'dependency:tree'
-      options: '-DoutputFile="cg.mvndeps" -DoutputType=text -f .\pom.xml'
-      publishJUnitResults: false
   - task: ms.vss-governance-buildtask.governance-build-task-component-detection.ComponentGovernanceComponentDetection@0
     displayName: 'Component Detection'
     inputs:
