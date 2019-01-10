@@ -1,0 +1,100 @@
+resources:
+  containers:
+  - container: CachedServerContainer
+    image: microsoft/windowsservercore@sha256:11827f8ee0c02106489e553be170c083381ee362687f0ae097a2ac5482b72778
+
+variables:
+  EnableDetectorPip: true
+  EnableDetectorCorextCG: true
+  DetectorArgs: '--ScanType Register --IsTransientSnapshot false --SourceDirectory "$(Build.SourcesDirectory)" --IgnoreDirectories .\bin --Output "$(System.ArtifactsDirectory)" --Url https://governance.dev.azure.com/mseng/ --BuildIdentifier $(Build.BuildId) --BuildDisplayIdentifier $(Build.BuildNumber) --BuildType vsts://0efb4611-d565-4cd1-9a64-7d6cb6d7d5f0/b924d696-3eae-4116-8443-9a18392d8544/$(System.DefinitionId) --BuildDisplayType $(Build.DefinitionName) --SourceIdentifier $CommitId --SourceDisplayIdentifier ${CommitId:0:8} --SourceType vsts://0efb4611-d565-4cd1-9a64-7d6cb6d7d5f0/b924d696-3eae-4116-8443-9a18392d8544/b668919b-fc10-4dd1-a644-a2cb9df7cd9b/$(Build.SourceBranchName) --SourceDisplayType $(Build.SourceBranchName) --DetectorArgs Pip=EnableIfDefaultOff,CorextCG=EnableIfDefaultOff'
+
+jobs:
+- job: platformSpecificBuild
+  displayName: Component Detection - 
+  strategy:
+    matrix:
+      Linux:
+        imageName: 'ubuntu-16.04'
+        runtimeIdentifier: 'linux-x64'
+      Mac:
+        imageName: 'macos-10.13'
+        runtimeIdentifier: 'osx-x64'
+      Windows:
+        imageName: 'vs2017-win2016'
+        runtimeIdentifier: 'win-x64'
+      Windows_Container:
+        imageName: 'win1803'
+        container: CachedServerContainer
+        runtimeIdentifier: 'win-x64'
+
+  pool:
+    vmImage:  $(imageName)
+
+  steps:
+  - task: DownloadBuildArtifacts@0
+    inputs:
+      buildType: 'specific'
+      project: 'b924d696-3eae-4116-8443-9a18392d8544'
+      pipeline: 7961
+      buildVersionToDownload: 'latest'
+      downloadType: 'single'
+      artifactName: 'component-detectors'
+      itemPattern: 'component-detectors/*$(runtimeIdentifier).tar.gz'
+    condition: eq(variables['GovernanceBuildId'], '')
+  - task: DownloadBuildArtifacts@0
+    inputs:
+      buildType: 'specific'
+      project: 'b924d696-3eae-4116-8443-9a18392d8544'
+      pipeline: 7961
+      buildVersionToDownload: 'specific'
+      buildId: $(GovernanceBuildId)
+      downloadType: 'single'
+      artifactName: 'component-detectors'
+      itemPattern: 'component-detectors/*$(runtimeIdentifier).tar.gz'
+    condition: ne(variables['GovernanceBuildId'], '')
+  
+  - task: ExtractFiles@1
+    inputs:
+      archiveFilePatterns: '$(System.ArtifactsDirectory)/component-detectors/*.tar.gz' 
+      destinationFolder: '$(Build.SourcesDirectory)/component-detectors'
+
+
+  - task: NodeTool@0
+    inputs:
+      versionSpec: '6.x'
+    condition: eq(variables['imageName'], 'win1803')
+
+  - task: Npm@1
+    inputs:
+      command: install
+      workingDir: projects/npm
+
+  - task: Maven@3
+    displayName: 'Maven projects\maven\pom.xml'
+    inputs:
+      mavenPomFile: 'projects/maven/pom.xml'
+      goals: 'dependency:tree'
+      options: '-DoutputFile="cg.mvndeps" -DoutputType=text -f .\pom.xml'
+      publishJUnitResults: false
+    condition: ne(variables['imageName'], 'win1803')
+
+  - bash: 'CommitId=$(Build.SourceVersion); component-detectors/ComponentDetector detect --Pat $(System.AccessToken) $(DetectorArgs)'
+
+  - task: ms.vss-governance-buildtask.governance-build-task-component-detection.ComponentGovernanceComponentDetection@0
+    displayName: 'Component Detection'
+    inputs:
+      ignoreDirectories: '.\bin'
+      verbosity: Verbose
+
+  - task: DotNetCoreInstaller@0
+    displayName: Install DotNetCore
+    inputs:
+      packageType: 'sdk' 
+      version: '2.2.101' 
+
+  - task: DotNetCoreCLI@2
+    displayName: Run Detector Tests
+    inputs:
+      command: test
+      projects: '*.csproj'
+
