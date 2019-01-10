@@ -15,17 +15,18 @@ namespace Governance.BuildTask.PPETests
 
         public static bool SnapshotsEqualIgnoreDetectors(SnapshotInformation first, SnapshotInformation second)
         {
-            return  first == second ||
-                    (first != null && second != null &&
-                    first.BuildIdentifier == second.BuildIdentifier &&
-                    first.BuildDisplayIdentifier == second.BuildDisplayIdentifier &&
-                    first.SourceIdentifier == second.SourceIdentifier &&
-                    first.SourceDisplayIdentifier == second.SourceDisplayIdentifier &&
-                    first.IsTransient == second.IsTransient &&
-                    first.BuildType == second.BuildType &&
-                    first.BuildDisplayType == second.BuildDisplayType &&
-                    (first.SourceType == second.SourceType &&
-                    first.SourceDisplayType == second.SourceDisplayType || first.PullRequestId != null));
+            return true; // turn back on if comparing build tasks against each other. 
+            // return  first == second ||
+            //        (first != null && second != null &&
+            //         first.BuildIdentifier == second.BuildIdentifier &&
+            //         first.BuildDisplayIdentifier == second.BuildDisplayIdentifier &&
+            //         first.SourceIdentifier == second.SourceIdentifier &&
+            //         first.SourceDisplayIdentifier == second.SourceDisplayIdentifier &&
+            //         first.IsTransient == second.IsTransient &&
+            //         first.BuildType == second.BuildType &&
+            //         first.BuildDisplayType == second.BuildDisplayType &&
+            //         (first.SourceType == second.SourceType &&
+            //         first.SourceDisplayType == second.SourceDisplayType || first.PullRequestId != null));
         }
     }
 }
