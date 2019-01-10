@@ -29,12 +29,21 @@ namespace Governance.BuildTask.PPETests
             Array.Sort(files);
             // cg files are sorted by timestamp/and since we have extra copies in the case of multiple detection runs in one build, the ones we want are at these indexes:
             // logs = 0,1 ; manifest = 2,3 ; metadata = 4,5
-            this.oldLogFileContents = File.ReadAllText(files[0]);
-            this.newLogFileContents = File.ReadAllText(files[1]);
-            string oldManifestFileContents = File.ReadAllText(files[2]);
-            string newManifestFileContents = File.ReadAllText(files[3]);
-            string oldMetadataFileContents = File.ReadAllText(files[4]);
-            string newMetadataFileContents = File.ReadAllText(files[5]);
+            string oldManifestFileContents;
+            string newManifestFileContents;
+            string oldMetadataFileContents;
+            string newMetadataFileContents;
+            try{
+                this.newLogFileContents = File.ReadAllText(files[0]);
+                this.oldLogFileContents = File.ReadAllText(files[1]);
+                newManifestFileContents = File.ReadAllText(files[2]);
+                oldManifestFileContents = File.ReadAllText(files[3]);
+                newMetadataFileContents = File.ReadAllText(files[4]);
+                oldMetadataFileContents = File.ReadAllText(files[5]);           
+            }
+            catch(Exception){
+                throw new Exception("The detector did not publish expected log/metadata files to the correct location");
+            }
 
             this.OldManifestRegistrations = JsonConvert.DeserializeObject<RegistrationRequest[]>(oldManifestFileContents);
             this.NewManifestRegistrations = JsonConvert.DeserializeObject<RegistrationRequest[]>(newManifestFileContents);
@@ -159,7 +168,12 @@ namespace Governance.BuildTask.PPETests
 
         private void ProcessDetectorVersions()
         {
+
             var oldDetectors = this.OldMetadata.SnapshotInformation.ComponentDetectors;
+            if (this.NewMetadata == null || this.NewMetadata.SnapshotInformation == null || this.NewMetadata.SnapshotInformation.ComponentDetectors == null)
+            {
+                Assert.Fail("New metadata file is corrupted, could not process detector versions");
+            }
             var newDetectors = this.NewMetadata.SnapshotInformation.ComponentDetectors;
             bool failed = false;
             string failureMessage = "";
