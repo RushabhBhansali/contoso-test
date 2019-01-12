@@ -6,7 +6,6 @@ resources:
 variables:
   EnableDetectorPip: true
   EnableDetectorCorextCG: true
-  DetectorArgs: '--ScanType Register --IsTransientSnapshot false --SourceDirectory "$(Build.SourcesDirectory)" --IgnoreDirectories .\bin --Output "$(System.ArtifactsDirectory)" --Url https://governance.dev.azure.com/mseng/ --BuildIdentifier $(Build.BuildId) --BuildDisplayIdentifier $(Build.BuildNumber) --BuildType vsts://0efb4611-d565-4cd1-9a64-7d6cb6d7d5f0/b924d696-3eae-4116-8443-9a18392d8544/$(System.DefinitionId) --BuildDisplayType $(Build.DefinitionName) --SourceIdentifier $CommitId --SourceDisplayIdentifier ${CommitId:0:8} --SourceType vsts://0efb4611-d565-4cd1-9a64-7d6cb6d7d5f0/b924d696-3eae-4116-8443-9a18392d8544/b668919b-fc10-4dd1-a644-a2cb9df7cd9b/$(Build.SourceBranchName) --SourceDisplayType $(Build.SourceBranchName) --DetectorArgs Pip=EnableIfDefaultOff,CorextCG=EnableIfDefaultOff'
 
 jobs:
 - job: platformSpecificBuild
@@ -31,33 +30,6 @@ jobs:
     vmImage:  $(imageName)
 
   steps:
-  - task: DownloadBuildArtifacts@0
-    inputs:
-      buildType: 'specific'
-      project: 'b924d696-3eae-4116-8443-9a18392d8544'
-      pipeline: 7961
-      buildVersionToDownload: 'latest'
-      downloadType: 'single'
-      artifactName: 'component-detectors'
-      itemPattern: 'component-detectors/*$(runtimeIdentifier).tar.gz'
-    condition: eq(variables['GovernanceBuildId'], '')
-  - task: DownloadBuildArtifacts@0
-    inputs:
-      buildType: 'specific'
-      project: 'b924d696-3eae-4116-8443-9a18392d8544'
-      pipeline: 7961
-      buildVersionToDownload: 'specific'
-      buildId: $(GovernanceBuildId)
-      downloadType: 'single'
-      artifactName: 'component-detectors'
-      itemPattern: 'component-detectors/*$(runtimeIdentifier).tar.gz'
-    condition: ne(variables['GovernanceBuildId'], '')
-  
-  - task: ExtractFiles@1
-    inputs:
-      archiveFilePatterns: '$(System.ArtifactsDirectory)/component-detectors/*.tar.gz' 
-      destinationFolder: '$(Build.SourcesDirectory)/component-detectors'
-
 
   - task: NodeTool@0
     inputs:
@@ -77,20 +49,24 @@ jobs:
       options: '-DoutputFile="cg.mvndeps" -DoutputType=text -f .\pom.xml'
       publishJUnitResults: false
     condition: ne(variables['imageName'], 'win1803')
+  
+  - task: DotNetCoreInstaller@0
+    displayName: Install DotNetCore
+    inputs:
+      packageType: 'sdk' 
+      version: '2.2.101' 
 
-  - bash: 'CommitId=$(Build.SourceVersion); component-detectors/ComponentDetector detect --Pat $(System.AccessToken) $(DetectorArgs)'
+  - task: GovernanceTeam.vss-governance-buildtask-ppe.governance-build-task-component-detection-ppe.ComponentGovernanceComponentDetectionPpe@0
+    displayName: 'PPE Component Detection'
+    inputs:
+      ignoreDirectories: '.\bin'
+      verbosity: Verbose
 
   - task: ms.vss-governance-buildtask.governance-build-task-component-detection.ComponentGovernanceComponentDetection@0
     displayName: 'Component Detection'
     inputs:
       ignoreDirectories: '.\bin'
       verbosity: Verbose
-
-  - task: DotNetCoreInstaller@0
-    displayName: Install DotNetCore
-    inputs:
-      packageType: 'sdk' 
-      version: '2.2.101' 
 
   - task: DotNetCoreCLI@2
     displayName: Run Detector Tests
