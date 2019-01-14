@@ -76,7 +76,7 @@ namespace Governance.BuildTask.PPETests
             {
                 Assert.IsTrue(componentDictionary.TryGetValue(oldRegistrationRequest.Component.ToString(), out var registrationRequest), $"The registration request for {oldRegistrationRequest.Component.ToString()} was not present in the manifest file. Verify this is expected behavior before proceeding");
                 Assert.AreEqual(registrationRequest.Component.ToString(), oldRegistrationRequest.Component.ToString(), $"Registration for component: {registrationRequest.Component} does not match");
-                Assert.AreEqual(registrationRequest.DevelopmentDependency, oldRegistrationRequest.DevelopmentDependency, $"Registration for component: {registrationRequest.Component} does not match");
+                Assert.AreEqual(registrationRequest.DevelopmentDependency.GetValueOrDefault(false), oldRegistrationRequest.DevelopmentDependency.GetValueOrDefault(false), $"Registration for component: {registrationRequest.Component} does not match");
                 Assert.AreEqual(registrationRequest.ForgeId, oldRegistrationRequest.ForgeId, $"Registration for component: {registrationRequest.Component} does not match");
                 Assert.AreEqual(registrationRequest.IsManual, oldRegistrationRequest.IsManual, $"Registration for component: {registrationRequest.Component} does not match");
             }
