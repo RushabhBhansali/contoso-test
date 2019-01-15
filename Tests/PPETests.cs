@@ -75,10 +75,12 @@ namespace Governance.BuildTask.PPETests
             foreach (var oldRegistrationRequest in OldManifestRegistrations)
             {
                 Assert.IsTrue(componentDictionary.TryGetValue(oldRegistrationRequest.Component.ToString(), out var registrationRequest), $"The registration request for {oldRegistrationRequest.Component.ToString()} was not present in the manifest file. Verify this is expected behavior before proceeding");
-                Assert.AreEqual(registrationRequest.Component.ToString(), oldRegistrationRequest.Component.ToString(), $"Registration for component: {registrationRequest.Component} does not match");
-                Assert.AreEqual(registrationRequest.DevelopmentDependency.GetValueOrDefault(false), oldRegistrationRequest.DevelopmentDependency.GetValueOrDefault(false), $"Registration for component: {registrationRequest.Component} does not match");
-                Assert.AreEqual(registrationRequest.ForgeId, oldRegistrationRequest.ForgeId, $"Registration for component: {registrationRequest.Component} does not match");
-                Assert.AreEqual(registrationRequest.IsManual, oldRegistrationRequest.IsManual, $"Registration for component: {registrationRequest.Component} does not match");
+                if (oldRegistrationRequest.DevelopmentDependency != null)
+                {
+                    Assert.AreEqual(oldRegistrationRequest.DevelopmentDependency, registrationRequest.DevelopmentDependency, $"Registration for component: {registrationRequest.Component} has a different \"DevelopmentDependency\".");
+                }
+                Assert.AreEqual(oldRegistrationRequest.ForgeId, registrationRequest.ForgeId, $"Registration for component: {registrationRequest.Component} has a different \"Forge Id\" than before");
+                Assert.AreEqual(oldRegistrationRequest.IsManual, registrationRequest.IsManual, $"Registration for component: {registrationRequest.Component} has a different \"IsManual\" field than before");
             }
         }
 
