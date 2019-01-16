@@ -3,8 +3,6 @@ resources:
   - container: CachedServerContainer
     image: microsoft/windowsservercore@sha256:11827f8ee0c02106489e553be170c083381ee362687f0ae097a2ac5482b72778
 
-variables:
-
 jobs:
 - job: platformSpecificBuild
   displayName: Component Detection - 
