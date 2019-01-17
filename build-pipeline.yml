@@ -10,20 +10,24 @@ jobs:
     matrix:
       Linux:
         imageName: 'ubuntu-16.04'
+        poolName: 'Hosted Ubuntu 1604'
         runtimeIdentifier: 'linux-x64'
       Mac:
         imageName: 'macos-10.13'
+        poolName: 'Hosted macOS'
         runtimeIdentifier: 'osx-x64'
       Windows:
         imageName: 'vs2017-win2016'
+        poolName: 'Hosted VS2017'
         runtimeIdentifier: 'win-x64'
       Windows_Container:
         imageName: 'win1803'
+        poolName: 'Hosted Windows Container'
         container: CachedServerContainer
         runtimeIdentifier: 'win-x64'
 
   pool:
-    vmImage:  $(imageName)
+    name: $(poolName)
 
   steps:
 
