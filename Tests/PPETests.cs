@@ -91,11 +91,16 @@ namespace Governance.BuildTask.PPETests
             // if some are lost, error. 
             // if some are new, check if version of detector is updated. if it isn't error 
             // Run times should be fairly close to identical. errors if there is an increase of more than 5%
-            ProcessDetectorVersions();
+            string failureMessage = "";
+            bool failed = ProcessDetectorVersions(out failureMessage);
             string regexPattern = @"Detection time: (\w+\.\w+) seconds. |(\w+ *[\w()]+) *\|(\w+\.*\w*) seconds *\|(\d+)";
             var oldMatches = Regex.Matches(this.oldLogFileContents, regexPattern);
             var newMatches = Regex.Matches(this.newLogFileContents, regexPattern);
-            Assert.IsTrue(newMatches.Count >= oldMatches.Count, "A detector was lost, make sure this was intentional.");
+            if (!(newMatches.Count >= oldMatches.Count))
+            {
+                failed = true;
+                failureMessage += "A detector was lost, make sure this was intentional.";
+            }
             var detectorTimes = new Dictionary<string, float>();
             var detectorCounts = new Dictionary<string, int>();
             foreach (Match match in oldMatches)
@@ -112,8 +117,8 @@ namespace Governance.BuildTask.PPETests
                 }
             }
             // fail at the end to gather all failures instead of just the first.
-            bool failed = false;
-            string failureMessage = "";
+            
+           
             foreach (Match match in newMatches)
             {
                 // for each detector and overall, make sure the time doesn't increase by more than 10%
@@ -168,17 +173,18 @@ namespace Governance.BuildTask.PPETests
         }
 
 
-        private void ProcessDetectorVersions()
+        private bool ProcessDetectorVersions(out string failureMessage)
         {
-
+            bool failed = false;
+            failureMessage = "";
             var oldDetectors = this.OldMetadata.SnapshotInformation.ComponentDetectors;
             if (this.NewMetadata == null || this.NewMetadata.SnapshotInformation == null || this.NewMetadata.SnapshotInformation.ComponentDetectors == null)
             {
-                Assert.Fail("New metadata file is corrupted, could not process detector versions");
+                failed = true;
+                failureMessage += "New metadata file is corrupted, could not process detector versions";
+                return failed;
             }
             var newDetectors = this.NewMetadata.SnapshotInformation.ComponentDetectors;
-            bool failed = false;
-            string failureMessage = "";
             bumpedDetectorVersions = new List<string>();
             foreach (ComponentDetector cd in oldDetectors)
             {
@@ -203,7 +209,7 @@ namespace Governance.BuildTask.PPETests
                     continue;
                 };
             }
-            Assert.IsFalse(failed, failureMessage);
+            return failed;
         }
     }
 }
