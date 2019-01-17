@@ -3,7 +3,7 @@ parameters:
   DetectorArgs: '--ScanType Register --IsTransientSnapshot false --SourceDirectory "$(Build.ArtifactStagingDirectory)/PPETestRepo" --IgnoreDirectories .\bin --Output "$(System.ArtifactsDirectory)" --Url https://governance.dev.azure.com/mseng/ --BuildIdentifier $(Build.BuildId) --BuildDisplayIdentifier $(Build.BuildNumber) --BuildType vsts://0efb4611-d565-4cd1-9a64-7d6cb6d7d5f0/b924d696-3eae-4116-8443-9a18392d8544/$(System.DefinitionId) --BuildDisplayType $(Build.DefinitionName) --SourceIdentifier $CommitId --SourceDisplayIdentifier ${CommitId:0:8} --SourceType vsts://0efb4611-d565-4cd1-9a64-7d6cb6d7d5f0/b924d696-3eae-4116-8443-9a18392d8544/a37b5dcf-80bb-4db5-9ece-8bcbb8053659/$(Build.SourceBranchName) --SourceDisplayType $(Build.SourceBranchName) --DetectorArgs Pip=EnableIfDefaultOff,CorextCG=EnableIfDefaultOff,GradlewCli=EnableIfDefaultOff'
 
 steps:
-  - bash: 'AUTH=$(echo -n ":$(System.AccessToken)" | openssl base64 | tr -d "\n","\r") && git -c http.extraheader="AUTHORIZATION: BASIC $AUTH" clone https://mseng@dev.azure.com/mseng/AzureDevOps/_git/Governance.BuildTaskTests --branch master PsPETestRepo && echo "Completed clone"'
+  - bash: 'AUTH=$(echo -n ":$(System.AccessToken)" | openssl base64 | tr -d "\n","\r") && git -c http.extraheader="AUTHORIZATION: BASIC $AUTH" clone https://mseng@dev.azure.com/mseng/AzureDevOps/_git/Governance.BuildTaskTests --branch master PPETestRepo && echo "Completed clone"'
     displayName: 'Clone Testing Repo'
     workingDirectory: $(Build.ArtifactStagingDirectory)
 
