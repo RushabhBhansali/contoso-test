@@ -71,10 +71,11 @@ namespace Governance.BuildTask.PPETests
             // Parse out array of registrations
             // make sure each component id has identical fields.
             // if any are lost, error, new ones should come with a bumped detector version, which is checked during the detectors counts test.
-            Dictionary<string, RegistrationRequest> componentDictionary = this.NewManifestRegistrations.ToDictionary(x => x.Component.ToString(), x => x);
+            Dictionary<string, RegistrationRequest> componentDictionary = this.NewManifestRegistrations.ToDictionary(x => x.Component.Type == ComponentType.Pip ? x.Component.ToString().ToLowerInvariant() : x.Component.ToString(), x => x);
             foreach (var oldRegistrationRequest in OldManifestRegistrations)
             {
-                Assert.IsTrue(componentDictionary.TryGetValue(oldRegistrationRequest.Component.ToString(), out var registrationRequest), $"The registration request for {oldRegistrationRequest.Component.ToString()} was not present in the manifest file. Verify this is expected behavior before proceeding");
+                var oldRegistrationString = oldRegistrationRequest.Component.Type == ComponentType.Pip ? oldRegistrationRequest.Component.ToString().ToLowerInvariant() : oldRegistrationRequest.Component.ToString();
+                Assert.IsTrue(componentDictionary.TryGetValue(oldRegistrationString, out var registrationRequest), $"The registration request for {oldRegistrationRequest.Component.ToString()} was not present in the manifest file. Verify this is expected behavior before proceeding");
                 if (oldRegistrationRequest.DevelopmentDependency != null)
                 {
                     Assert.AreEqual(oldRegistrationRequest.DevelopmentDependency, registrationRequest.DevelopmentDependency, $"Registration for component: {registrationRequest.Component} has a different \"DevelopmentDependency\".");
@@ -149,6 +150,8 @@ namespace Governance.BuildTask.PPETests
                     int newCount = int.Parse(match.Groups[4].Value);                  
                     if (detectorCounts.TryGetValue(detectorId, out var oldCount))
                     {
+                        if (detectorId == "Pip" || detectorId == "Total")
+                            continue; 
                         if (newCount < oldCount)
                         {
                             failed = true;
