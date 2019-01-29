@@ -74,7 +74,7 @@ namespace Governance.BuildTask.PPETests
             Dictionary<string, RegistrationRequest> componentDictionary = this.NewManifestRegistrations.ToDictionary(x => x.Component.Type == ComponentType.Pip ? x.Component.ToString().ToLowerInvariant() : x.Component.ToString(), x => x);
             foreach (var oldRegistrationRequest in OldManifestRegistrations)
             {
-                var oldRegistrationString = oldRegistrationRequest.Component.Type == ComponentType.Pip ? oldRegistrationRequest.Component.ToString().ToLowerInvariant() : oldRegistrationRequest.Component.ToString();
+                var oldRegistrationString = oldRegistrationRequest.Component.ToString();
                 Assert.IsTrue(componentDictionary.TryGetValue(oldRegistrationString, out var registrationRequest), $"The registration request for {oldRegistrationRequest.Component.ToString()} was not present in the manifest file. Verify this is expected behavior before proceeding");
                 if (oldRegistrationRequest.DevelopmentDependency != null)
                 {
