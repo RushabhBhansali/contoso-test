@@ -1,0 +1,52 @@
+trigger: none
+
+resources:
+  repositories:
+  - repository: ComponentDetection
+    type: git
+    name: Governance.ComponentDetection
+    ref: refs/heads/master
+  containers:
+  - container: CachedServerContainer
+    image: microsoft/windowsservercore@sha256:11827f8ee0c02106489e553be170c083381ee362687f0ae097a2ac5482b72778
+
+variables:
+  EnableDetectorPip: true
+  EnableDetectorCorextCG: true
+  skipComponentGovernanceDetection: true
+
+jobs:
+- template: Build/templates/functional-test.yml@ComponentDetection  # Template reference
+  parameters:
+    imageName: 'ubuntu-16.04'
+    poolName: 'Hosted Ubuntu 1604'
+    runtimeIdentifier: 'linux-x64'
+    detectorExecutable: 'ComponentDetector'
+    ignoreFailedTests: false
+
+- template: Build/templates/functional-test.yml@ComponentDetection  # Template reference
+  parameters:
+    imageName: 'macos-10.13'
+    poolName: 'Hosted macOS'
+    runtimeIdentifier: 'osx-x64'
+    demands: 'Agent.OS -equals Darwin'
+    detectorExecutable: 'ComponentDetector'
+    ignoreFailedTests: false
+
+- template: Build/templates/functional-test.yml@ComponentDetection  # Template reference
+  parameters:
+    imageName: 'vs2017-win2016'
+    poolName: '1ESTools'
+    runtimeIdentifier: 'win-x64'
+    demands: 'Agent.OS -equals Windows_NT'
+    detectorExecutable: 'ComponentDetector.exe'
+    ignoreFailedTests: false
+
+- template: Build/templates/functional-test.yml@ComponentDetection  # Template reference
+  parameters:
+    imageName: 'win1803'
+    poolName: 'Hosted Windows Container'
+    container: CachedServerContainer
+    runtimeIdentifier: 'win-x64'
+    detectorExecutable: 'ComponentDetector.exe'
+    ignoreFailedTests: false
