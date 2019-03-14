@@ -48,7 +48,6 @@ jobs:
       goals: 'dependency:tree'
       options: '-DoutputFile="cg.mvndeps" -DoutputType=text -f .\pom.xml'
       publishJUnitResults: false
-    condition: ne(variables['imageName'], 'win1803')
   
   - task: DotNetCoreInstaller@0
     displayName: Install DotNetCore
