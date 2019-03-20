@@ -150,8 +150,6 @@ namespace Governance.BuildTask.PPETests
                     int newCount = int.Parse(match.Groups[4].Value);                  
                     if (detectorCounts.TryGetValue(detectorId, out var oldCount))
                     {
-                        if (detectorId == "Pip" || detectorId == "Total")
-                            continue; 
                         if (newCount < oldCount)
                         {
                             failed = true;
