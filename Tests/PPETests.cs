@@ -71,7 +71,7 @@ namespace Governance.BuildTask.PPETests
             // Parse out array of registrations
             // make sure each component id has identical fields.
             // if any are lost, error, new ones should come with a bumped detector version, which is checked during the detectors counts test.
-            Dictionary<string, RegistrationRequest> componentDictionary = this.NewManifestRegistrations.ToDictionary(x => x.Component.Type == ComponentType.Pip ? x.Component.ToString().ToLowerInvariant() : x.Component.ToString(), x => x);
+            Dictionary<string, RegistrationRequest> componentDictionary = this.NewManifestRegistrations.ToDictionary(x => x.Component.ToString(), x => x);
             foreach (var oldRegistrationRequest in OldManifestRegistrations)
             {
                 var oldRegistrationString = oldRegistrationRequest.Component.ToString();
