@@ -2276,29 +2276,6 @@ packages:
     dev: false
     resolution:
       integrity: sha512-JRGsPEPCrYqTXU0Cr+Yu7esPBE2yvH7ucOHr+JuBy0F59kglPvO5gkmtyEvf3P6dASSkScvy/XQ6SC1QEBFDuA==
-  /@verdaccio/file-locking/0.0.7:
-    dependencies:
-      lockfile: 1.0.3
-      lodash: 4.17.10
-    dev: true
-    engines:
-      node: '>=4.6.1'
-      npm: '>=2.15.9'
-    resolution:
-      integrity: sha512-yTecDiJrYJMNnsPA4Nminygc/bPRf2HB6Pj/o/IS8scljYvV++LRXuglefM1I7p18qs3mcgX/bofCZM4x2SOJA==
-  /@verdaccio/local-storage/1.1.3:
-    dependencies:
-      '@verdaccio/file-locking': 0.0.7
-      '@verdaccio/streams': 1.0.0
-      async: 2.6.1
-      http-errors: 1.6.2
-      lodash: 4.17.10
-      mkdirp: 0.5.1
-    dev: true
-    engines:
-      node: '>=6.12.0'
-    resolution:
-      integrity: sha512-gyVzjByB9eSlV0K9BuXcVaAqpTAtm12H61g5LMtcDNQ8K2OPZ1AVa0SfIU1+0DP56Sef3LudmR0/emqxT6yy1A==
   /@verdaccio/streams/1.0.0:
     dev: true
     engines:
@@ -5084,19 +5061,6 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-qtutIKMthNJJgeHQS7kZ9FqDq59/Wn0G2HYCRNjpup7yKfVI6/eqwpmroyZGFoCYaG+sW6psNVb4zoLADHpp2g==
-  /handlebars/4.0.11:
-    dependencies:
-      async: 1.5.2
-      optimist: 0.6.1
-      source-map: 0.4.4
-    dev: true
-    engines:
-      node: '>=0.4.7'
-    hasBin: true
-    optionalDependencies:
-      uglify-js: 2.8.29
-    resolution:
-      integrity: sha1-Ywo13+ApS8KB7a5v/F0yn8eYLcw=
   /har-schema/2.0.0:
     engines:
       node: '>=4'
@@ -5397,23 +5361,6 @@ packages:
   /ini/1.3.5:
     resolution:
       integrity: sha512-RZY5huIKCMRWDUqZlEi72f/lmXKMvuszcMBduliQ3nnWbx9X/ZBQO7DijMEYS9EhHBb2qacRUMtC7svLwe0lcw==
-  /inquirer/0.11.0:
-    dependencies:
-      ansi-escapes: 1.4.0
-      ansi-regex: 2.1.1
-      chalk: 1.1.3
-      cli-cursor: 1.0.2
-      cli-width: 1.1.1
-      figures: 1.7.0
-      lodash: 3.10.1
-      readline2: 1.0.1
-      run-async: 0.1.0
-      rx-lite: 3.1.2
-      strip-ansi: 3.0.1
-      through: 2.3.8
-    dev: true
-    resolution:
-      integrity: sha1-dEi/qSQJKvMR1HFzu6uZDK4rsCc=
   /into-stream/2.0.1:
     dependencies:
       from2: 2.3.0
@@ -5921,10 +5868,6 @@ packages:
       '0': node >=0.6.0
     resolution:
       integrity: sha1-MT5mvB5cwG5Di8G3SZwuXFastqI=
-  /just-extend/3.0.0:
-    dev: true
-    resolution:
-      integrity: sha512-Fu3T6pKBuxjWT/p4DkqGHFRsysc8OauWr4ZRTY9dIx07Y9O0RkoR5jcv28aeD1vuAwhm3nLkDurwLXoALp4DpQ==
   /jwa/1.1.6:
     dependencies:
       buffer-equal-constant-time: 1.0.1
@@ -6190,14 +6133,6 @@ packages:
     dev: true
     resolution:
       integrity: sha1-E2Xt9DFIBIHvDRxolXpe2Z1J984=
-  /lodash/3.10.1:
-    dev: true
-    resolution:
-      integrity: sha1-W/Rejkm6QYnhfUgnid/RW9FAt7Y=
-  /lodash/4.17.10:
-    dev: true
-    resolution:
-      integrity: sha512-UejweD1pDoXu+AD825lWwp4ZGtSwgnpZxb3JDViD7StjQz+Nb/6l093lx4OQ0foGWNRoc19mWy7BzL+UAK2iVg==
   /lodash/4.17.11:
     dev: true
     resolution:
@@ -6948,16 +6883,6 @@ packages:
   /nice-try/1.0.5:
     resolution:
       integrity: sha512-1nh45deeb5olNY7eX82BkPO7SSxR5SSYJiPTrTdFUVYwAl8CKMA5N9PjTYkHiRjisVcxcQ1HXdLhx2qxxJzLNQ==
-  /nise/1.4.6:
-    dependencies:
-      '@sinonjs/formatio': 3.0.0
-      just-extend: 3.0.0
-      lolex: 2.7.5
-      path-to-regexp: 1.7.0
-      text-encoding: 0.6.4
-    dev: true
-    resolution:
-      integrity: sha512-1GedetLKzmqmgwabuMSqPsT7oumdR77SBpDfNNJhADRIeA3LN/2RVqR4fFqwvzhAqcTef6PPCzQwITE/YQ8S8A==
   /nock/10.0.2:
     dependencies:
       chai: 4.2.0
@@ -9810,49 +9735,6 @@ packages:
       node: '>=6.12.0'
     resolution:
       integrity: sha512-60R1AEAjKmIGms7gSfotWmUhw0JOPdeyx6DOATtCuOJNfgameiDm2gPlAGJ/XKHoXn96EaVfuhg2ruDmq1AQug==
-  /verdaccio/3.8.6:
-    dependencies:
-      '@verdaccio/file-locking': 0.0.7
-      '@verdaccio/local-storage': 1.1.3
-      '@verdaccio/streams': 1.0.0
-      JSONStream: 1.3.3
-      async: 2.6.1
-      body-parser: 1.18.3
-      bunyan: 1.8.12
-      chalk: 2.4.1
-      commander: 2.16.0
-      compression: 1.7.3
-      cookies: 0.7.1
-      cors: 2.8.4
-      date-fns: 1.29.0
-      express: 4.16.3
-      global: 4.3.2
-      handlebars: 4.0.11
-      http-errors: 1.6.3
-      js-base64: 2.4.8
-      js-string-escape: 1.0.1
-      js-yaml: 3.12.0
-      jsonwebtoken: 8.3.0
-      lockfile: 1.0.4
-      lodash: 4.17.10
-      lunr: 0.7.0
-      marked: 0.4.0
-      mime: 2.3.1
-      minimatch: 3.0.4
-      mkdirp: 0.5.1
-      mv: 2.1.1
-      pkginfo: 0.4.1
-      request: 2.87.0
-      semver: 5.5.0
-      verdaccio-audit: 1.0.0
-      verdaccio-htpasswd: 0.2.2
-    dev: true
-    engines:
-      node: '>=6.12.0'
-      npm: '>=3'
-    hasBin: true
-    resolution:
-      integrity: sha512-k6h4cQCn4Twg2doNUDXPsV6ggESLXiTrbxMxVFlbtMvmxbP+oFT7cb8nUfFlJe/nCXeoZCpqmbrrPdO5Au05AQ==
   /verror/1.10.0:
     dependencies:
       assert-plus: 1.0.0

@@ -51,22 +51,6 @@
         },
         {
           "Component": {
-            "Type": 1,
-            "NuGet": {
-              "Name": "Newtonsoft.Json",
-              "Version": "1.10.2"
-            }
-          },
-          "PolicyProperties": {},
-          "IsManual": false,
-          "DependencyRoots": null,
-          "DetectedComponentLocations": [
-            "/cgmanifest.json"
-          ],
-          "DevelopmentDependency": false
-        },
-        {
-          "Component": {
             "Type": 7,
             "Cargo": {
               "Name": "CargoPackage",
@@ -8080,22 +8064,6 @@
             "/OfficeNugetInit/gen/msodll_98/officePackageList.json",
             "/OfficeNugetInit/gen/msodll_99/officePackageList.json",
             "/OfficeNugetInit/gen/perftools/officePackageList.json"
-          ]
-        },
-        {
-          "Component": {
-            "Type": 1,
-            "NuGet": {
-              "Name": "Newtonsoft.Json",
-              "Version": "6.0.4"
-            }
-          },
-          "PolicyProperties": {},
-          "IsManual": false,
-          "DependencyRoots": null,
-          "DetectedComponentLocations": [
-            "/packageList.lst",
-            "/d:/cxtmp1/Newtonsoft.Json.6.0.4"
           ]
         },
         {

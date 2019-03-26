@@ -27,7 +27,7 @@ steps:
       goals: 'dependency:tree'
       options: '-DoutputFile="cg.mvndeps" -DoutputType=text'
       publishJUnitResults: false
-    condition: ne(variables['imageName'], 'win1803')
+    continueOnError: true
 
   #run new version of component detection, slightly faster failing and also gives us access to logs since it's the task that uploads them
   - bash: 'CommitId=$(Build.SourceVersion); ${{ parameters.ComponentDetection }} detect --Pat $(System.AccessToken) ${{ parameters.DetectorArgs }}'
