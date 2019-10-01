@@ -15,10 +15,6 @@
   "files": [
     "lib"
   ],
-  "dependencies": {
-    "tslint-config-standard": "8.0.1",
-    "tslint-eslint-rules": "5.4.0"
-  },
   "devDependencies": {
     "tslint": "5.11.0",
     "typescript": "3.1.6"
