@@ -355,10 +355,6 @@ packages:
     dev: true
     resolution:
       integrity: sha1-byTuSHMdMRaOpRBhDW3RXl/Jxv8=
-  /@types/js-yaml/3.11.2:
-    dev: false
-    resolution:
-      integrity: sha512-JRDtMPEqXrzfuYAdqbxLot1GvAr/QvicIZAnOAigZaj8xVMhuSJTg/xsv9E1TvyL+wujYhRLx9ZsQ0oFOSmwyA==
   /@types/load-json-file/2.0.7:
     resolution:
       integrity: sha512-NrH6jPlV77QCVPhAHofWeiOr77TgpKt82c2RVxSBChWBJqyY/u4ngl3CA4mcsAg/w7rNLrkR7dkObMV0ihLLXw==
@@ -1159,22 +1155,6 @@ packages:
       y18n: 4.0.0
     resolution:
       integrity: sha512-2PEw4cRRDu+iQvBTTuttQifacYjLPhET+SYO/gEFMy8uhi+jlJREDAjSF5FWSdV/Aw5h18caHA7vMTw2c+wDzA==
-  /cache-base/1.0.1:
-    dependencies:
-      collection-visit: 1.0.0
-      component-emitter: 1.2.1
-      get-value: 2.0.6
-      has-value: 1.0.0
-      isobject: 3.0.1
-      set-value: 2.0.0
-      to-object-path: 0.3.0
-      union-value: 1.0.0
-      unset-value: 1.0.0
-    dev: false
-    engines:
-      node: '>=0.10.0'
-    resolution:
-      integrity: sha512-AKcdTnFSWATd5/GCPRxr2ChwIJ85CeyrEyjRHlKxQ56d4XJMGym0uAiKn0xbLOGOl3+yRpOTi484dVCEc5AUzQ==
   /cacheable-request/2.1.4:
     dependencies:
       clone-response: 1.0.2
@@ -1727,28 +1707,6 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha1-K9OB8usgECAQXNUOpZ2mMJBpRoY=
-  /cosmiconfig/4.0.0:
-    dependencies:
-      is-directory: 0.3.1
-      js-yaml: 3.12.0
-      parse-json: 4.0.0
-      require-from-string: 2.0.2
-    dev: true
-    engines:
-      node: '>=4'
-    resolution:
-      integrity: sha512-6e5vDdrXZD+t5v0L8CrurPeybg4Fmf+FCSYxXKYVAqLUtyCSbuyqE059d0kDthTNRzKVjL7QMgNpEUlsoYH3iQ==
-  /cosmiconfig/5.0.7:
-    dependencies:
-      import-fresh: 2.0.0
-      is-directory: 0.3.1
-      js-yaml: 3.12.0
-      parse-json: 4.0.0
-    dev: true
-    engines:
-      node: '>=4'
-    resolution:
-      integrity: sha512-PcLqxTKiDmNT6pSpy4N6KtuPwb53W+2tzNvwOZw0WH9N6O0vLIBq0x8aj8Oj75ere4YcGi48bDFCL+3fRJdlNA==
   /couleurs/5.0.0:
     dependencies:
       flat-colors: 3.0.0
@@ -3696,13 +3654,6 @@ packages:
     dev: true
     resolution:
       integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==
-  /js-yaml/3.12.0:
-    dependencies:
-      argparse: 1.0.10
-      esprima: 4.0.1
-    hasBin: true
-    resolution:
-      integrity: sha512-PIt2cnwmPfL4hKNwqeiuz4bKfnzHTBv6HyVgjahA6mPLwPDzjDWrplJBMjHUFxku/N3FlmrbyPclad+I+4mJ3A==
   /jsbn/0.1.1:
     resolution:
       integrity: sha1-peZUwuWi3rXyAdls77yoDA7y9RM=
@@ -5391,29 +5342,6 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-y3bGgqKj3QBdxLbLkomlohkvsA8gdAiUQlSBJnBhfn+BPxg4bc62d8TcBW15wavDfgexCgccckhcZvywyQYPOw==
-  /rcfile/1.0.3:
-    dependencies:
-      debug: 2.6.9
-      js-yaml: 3.12.0
-      json5: 0.5.1
-      object-assign: 4.1.1
-      object-keys: 1.0.12
-      path-exists: 2.1.0
-      require-uncached: 1.0.3
-    dev: true
-    engines:
-      node: '>=0.10'
-    resolution:
-      integrity: sha1-wdgXXCiRh8Hci7OpY7bURAF7FXY=
-  /read-all-stream/3.1.0:
-    dependencies:
-      pinkie-promise: 2.0.1
-      readable-stream: 2.3.6
-    dev: true
-    engines:
-      node: '>=0.10.0'
-    resolution:
-      integrity: sha1-NcPhd/IHjveJ7kv6+kNzB06u9Po=
   /read-ini-file/2.0.0:
     dependencies:
       graceful-fs: 4.1.15
@@ -6010,28 +5938,6 @@ packages:
   /set-blocking/2.0.0:
     resolution:
       integrity: sha1-BF+XgtARrppoA93TgrJDkrPYkPc=
-  /set-value/0.4.3:
-    dependencies:
-      extend-shallow: 2.0.1
-      is-extendable: 0.1.1
-      is-plain-object: 2.0.4
-      to-object-path: 0.3.0
-    dev: false
-    engines:
-      node: '>=0.10.0'
-    resolution:
-      integrity: sha1-fbCPnT0i3H945Trzw79GZuzfzPE=
-  /set-value/2.0.0:
-    dependencies:
-      extend-shallow: 2.0.1
-      is-extendable: 0.1.1
-      is-plain-object: 2.0.4
-      split-string: 3.1.0
-    dev: false
-    engines:
-      node: '>=0.10.0'
-    resolution:
-      integrity: sha512-hw0yxk9GT/Hr5yJEYnHNKYXkIA8mVJgd9ditYZCe16ZczcaELYYcfvaXesNACk2O8O0nTiPQcQhGUQj8JLzeeg==
   /setprototypeof/1.0.3:
     dev: true
     resolution:
@@ -6527,17 +6433,6 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-jMqXkCcBVvpdyJKt8BLCp7FVIywe4sfEOL6Ugm1LpUGiwJzdj9q3ld/ECYV+seT/ly6duG0koT6d6jZbcSQ9mg==
-  /tap-parser/1.3.2:
-    dependencies:
-      events-to-array: 1.1.2
-      inherits: 2.0.3
-      js-yaml: 3.12.0
-    dev: true
-    hasBin: true
-    optionalDependencies:
-      readable-stream: 2.3.6
-    resolution:
-      integrity: sha1-EgxQiciMPIp5PvKIhn3jIeGPjCI=
   /tape-promise/4.0.0:
     dependencies:
       is-promise: 2.1.0
@@ -6934,23 +6829,6 @@ packages:
     dev: false
     resolution:
       integrity: sha1-8pzr8B31F5ErtY/5xOUP3o4zMg0=
-  /unbzip2-stream/1.3.1:
-    dependencies:
-      buffer: 3.6.0
-      through: 2.3.8
-    resolution:
-      integrity: sha512-fIZnvdjblYs7Cru/xC6tCPVhz7JkYcVQQkePwMLyQELzYTds2Xn8QefPVnvdVhhZqubxNA1cASXEH5wcK0Bucw==
-  /union-value/1.0.0:
-    dependencies:
-      arr-union: 3.1.0
-      get-value: 2.0.6
-      is-extendable: 0.1.1
-      set-value: 0.4.3
-    dev: false
-    engines:
-      node: '>=0.10.0'
-    resolution:
-      integrity: sha1-XHHDTLW61dzr4+oM0IIHulqhrqQ=
   /unique-filename/1.1.1:
     dependencies:
       unique-slug: 2.0.1
@@ -7351,12 +7229,6 @@ packages:
     dev: false
     resolution:
       integrity: sha512-S+Zk8DEWE6oKpV+vI3qWkaK+jSbIK86pCwe2IF/xwIpQ8jEuxpw9NyaGjmp9+BoJv5FV2piqCDcoCtStppiq2A==
-  /yaml-tag/1.1.0:
-    dependencies:
-      js-yaml: 3.12.0
-    dev: true
-    resolution:
-      integrity: sha1-u6spj+0znbYDahinSCXevONvrmo=
   /yargs-parser/10.1.0:
     dependencies:
       camelcase: 4.1.0
