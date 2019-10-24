@@ -49,12 +49,6 @@ jobs:
       options: '-DoutputFile="cg.mvndeps" -DoutputType=text -f .\pom.xml'
       publishJUnitResults: false
     condition: ne(variables['imageName'], 'win1803')
-  
-  - task: DotNetCoreInstaller@0
-    displayName: Install DotNetCore
-    inputs:
-      packageType: 'sdk' 
-      version: '2.2.101' 
 
   - task: GovernanceTeam.vss-governance-buildtask-ppe.governance-build-task-component-detection-ppe.ComponentGovernanceComponentDetectionPpe@0
     displayName: 'PPE Component Detection'
@@ -67,6 +61,12 @@ jobs:
     inputs:
       ignoreDirectories: '.\bin'
       verbosity: Verbose
+
+  - task: DotNetCoreInstaller@0
+    displayName: Install DotNetCore
+    inputs:
+      packageType: 'sdk' 
+      version: '2.2.101' 
 
   - task: DotNetCoreCLI@2
     displayName: Run Detector Tests
