@@ -25,6 +25,7 @@ The build pipeline runs deployed and PPE detection on 4 different platforms, the
 
 # Tests
 At this point there are 4 tests:
+
     1. Compare metadata files, only thing that couldve changed without warning is a detector version being bumped.
     2. Compare manifest files, all compoonents should be present in both, and all their details should be identical
     3. Make sure the log file does not contain any '[ERROR]' tags
