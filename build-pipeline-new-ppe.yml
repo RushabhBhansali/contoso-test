@@ -1,0 +1,76 @@
+resources:
+  containers:
+  - container: CachedServerContainer
+    image: microsoft/windowsservercore@sha256:11827f8ee0c02106489e553be170c083381ee362687f0ae097a2ac5482b72778
+
+jobs:
+- job: platformSpecificBuild
+  displayName: Component Detection - 
+  strategy:
+    matrix:
+      Linux:
+        imageName: 'ubuntu-16.04'
+        poolName: 'Hosted Ubuntu 1604'
+        runtimeIdentifier: 'linux-x64'
+      Mac:
+        imageName: 'macos-10.13'
+        poolName: 'Hosted macOS'
+        runtimeIdentifier: 'osx-x64'
+      Windows:
+        imageName: 'vs2017-win2016'
+        poolName: 'Hosted VS2017'
+        runtimeIdentifier: 'win-x64'
+      Windows_Container:
+        imageName: 'win1803'
+        poolName: 'Hosted Windows Container'
+        container: CachedServerContainer
+        runtimeIdentifier: 'win-x64'
+
+  pool:
+    name: $(poolName)
+
+  steps:
+
+  - task: NodeTool@0
+    inputs:
+      versionSpec: '6.x'
+    condition: eq(variables['imageName'], 'win1803')
+
+  - task: Npm@1
+    inputs:
+      command: install
+      workingDir: projects/npm
+
+  - task: Maven@3
+    displayName: 'Maven projects\maven\pom.xml'
+    inputs:
+      mavenPomFile: 'projects/maven/pom.xml'
+      goals: 'dependency:tree'
+      options: '-DoutputFile="cg.mvndeps" -DoutputType=text -f .\pom.xml'
+      publishJUnitResults: false
+    condition: ne(variables['imageName'], 'win1803')
+
+  - task: OpenSourceEngineeringTeam.vss-ose-buildtask-ppe.ose-build-task-component-detection-ppe.ComponentGovernanceComponentDetectionPpe@0
+    displayName: 'PPE Component Detection'
+    inputs:
+      ignoreDirectories: '.\bin'
+      verbosity: Verbose
+
+  - task: ms.vss-governance-buildtask.governance-build-task-component-detection.ComponentGovernanceComponentDetection@0
+    displayName: 'Component Detection'
+    inputs:
+      ignoreDirectories: '.\bin'
+      verbosity: Verbose
+
+  - task: DotNetCoreInstaller@0
+    displayName: Install DotNetCore
+    inputs:
+      packageType: 'sdk' 
+      version: '2.2.101' 
+
+  - task: DotNetCoreCLI@2
+    displayName: Run Detector Tests
+    inputs:
+      command: test
+      projects: '*.csproj'
+
