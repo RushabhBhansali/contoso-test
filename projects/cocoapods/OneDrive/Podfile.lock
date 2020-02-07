@@ -1,0 +1,483 @@
+PODS:
+  - 1PasswordExtension (1.8.2)
+  - ADAL (2.7.15):
+    - ADAL/app-lib (= 2.7.15)
+  - ADAL/app-lib (2.7.15):
+    - ADAL/tokencacheheader
+  - ADAL/tokencacheheader (2.7.15)
+  - ADALiOS (1.2.10)
+  - Adjust (4.11.0):
+    - Adjust/Core (= 4.11.0)
+  - Adjust/Core (4.11.0)
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Appboy-iOS-SDK (3.10.0):
+    - Appboy-iOS-SDK/UI (= 3.10.0)
+  - Appboy-iOS-SDK/ContentCards (3.10.0):
+    - Appboy-iOS-SDK/Core
+    - SDWebImage/GIF (~> 4.0)
+  - Appboy-iOS-SDK/Core (3.10.0)
+  - Appboy-iOS-SDK/Feedback (3.10.0):
+    - Appboy-iOS-SDK/Core
+  - Appboy-iOS-SDK/InAppMessage (3.10.0):
+    - Appboy-iOS-SDK/Core
+    - SDWebImage/GIF (~> 4.0)
+  - Appboy-iOS-SDK/NewsFeed (3.10.0):
+    - Appboy-iOS-SDK/Core
+    - SDWebImage/GIF (~> 4.0)
+  - Appboy-iOS-SDK/UI (3.10.0):
+    - Appboy-iOS-SDK/ContentCards
+    - Appboy-iOS-SDK/Core
+    - Appboy-iOS-SDK/Feedback
+    - Appboy-iOS-SDK/InAppMessage
+    - Appboy-iOS-SDK/NewsFeed
+  - AriaObjC.framework.debug (8.6.3.0)
+  - AriaObjC.framework.release (8.6.3.0)
+  - Base32 (1.1.2)
+  - boost-for-react-native (1.63.0)
+  - CircleProgressView (1.2.0)
+  - CocoaLumberjack (3.5.3):
+    - CocoaLumberjack/Core (= 3.5.3)
+  - CocoaLumberjack/Core (3.5.3)
+  - DoubleConversion (1.1.5)
+  - DynamicBlurView (3.0.1)
+  - ExpandableLabel (0.5.2)
+  - FastImageCache (1.5.1)
+  - FeatureCards (1.0.12)
+  - FLAnimatedImage (1.0.12)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - Folly (2018.10.22.00):
+    - boost-for-react-native
+    - DoubleConversion
+    - glog
+  - GIKPopoverBackgroundView-odsp (1.0)
+  - glog (0.3.4)
+  - HockeySDK (5.1.4):
+    - HockeySDK/DefaultLib (= 5.1.4)
+  - HockeySDK/DefaultLib (5.1.4)
+  - HTAutocompleteTextField (1.3.2)
+  - IGListKit (3.4.0):
+    - IGListKit/Default (= 3.4.0)
+  - IGListKit/Default (3.4.0):
+    - IGListKit/Diffing
+  - IGListKit/Diffing (3.4.0)
+  - iOSLogging (1.5.0):
+    - CocoaLumberjack (~> 3)
+  - iOSODSPCommon (1.0.21):
+    - iOSLogging (~> 1.0)
+    - iOSODSPCommon/Core (= 1.0.21)
+  - iOSODSPCommon/Core (1.0.21):
+    - ExpandableLabel (= 0.5.2)
+    - GIKPopoverBackgroundView-odsp (= 1.0)
+    - iOSLogging (~> 1.0)
+    - iOSODSPOperation
+  - iOSODSPOperation (0.2.7):
+    - iOSLogging (~> 1.0)
+  - iOSODSPSelectionDialog (0.4.1):
+    - iOSLogging
+    - PopupDialog (= 1.1.0)
+  - iOSODSPSharedSharing/PlusSwift (2.9.5):
+    - iOSLogging (~> 1.5.0)
+    - MBProgressHUD (~> 1.0)
+    - OfficeUIFabric (~> 0.3.5)
+  - ItemsViewMobile (16.27.24):
+    - OneDriveSDK/OneDriveCoreSDK
+    - React
+  - KeychainAccess (3.2.0)
+  - LensSDK (6.4.0)
+  - lottie-ios (2.1.5)
+  - MBProgressHUD (1.0.0)
+  - MicrosoftSharedUI (0.2.16):
+    - OfficeUIFabric (~> 0.3.11)
+  - MMDrawerController (0.6.0):
+    - MMDrawerController/Core (= 0.6.0)
+    - MMDrawerController/MMDrawerBarButtonItem (= 0.6.0)
+    - MMDrawerController/MMDrawerVisualStates (= 0.6.0)
+    - MMDrawerController/Subclass (= 0.6.0)
+  - MMDrawerController/Core (0.6.0)
+  - MMDrawerController/MMDrawerBarButtonItem (0.6.0):
+    - MMDrawerController/Core
+  - MMDrawerController/MMDrawerVisualStates (0.6.0):
+    - MMDrawerController/Core
+  - MMDrawerController/Subclass (0.6.0):
+    - MMDrawerController/Core
+  - MMSegmentSlider (1.0.4)
+  - MSPDFKit (1.0.0):
+    - OfficeUIFabric (~> 0.3.5)
+  - O365ShellCore (1.9.4)
+  - OCMock (3.2.2)
+  - ODSPMobileTelemetry (0.9.0)
+  - ODSPSharedAccounts (2.3.6):
+    - KeychainAccess (~> 3)
+  - OfficeUIFabric (0.3.11)
+  - OfficeUIFabricCore (0.2.1)
+  - OneDriveSDK (1.2.2):
+    - OneDriveSDK/Auth (= 1.2.2)
+    - OneDriveSDK/Common (= 1.2.2)
+    - OneDriveSDK/Extensions (= 1.2.2)
+    - OneDriveSDK/Implementations (= 1.2.2)
+    - OneDriveSDK/OneDriveCoreSDK (= 1.2.2)
+  - OneDriveSDK/Auth (1.2.2):
+    - ADALiOS (~> 1.2)
+    - Base32 (~> 1.1)
+    - OneDriveSDK/Common
+  - OneDriveSDK/Common (1.2.2)
+  - OneDriveSDK/Extensions (1.2.2):
+    - OneDriveSDK/Auth
+    - OneDriveSDK/Implementations
+    - OneDriveSDK/OneDriveCoreSDK
+  - OneDriveSDK/Implementations (1.2.2):
+    - OneDriveSDK/Common
+  - OneDriveSDK/OneDriveCoreSDK (1.2.2):
+    - OneDriveSDK/Common
+  - OPAL (1.6):
+    - iOSLogging (~> 1.0)
+    - MBProgressHUD
+  - PagingMenuController (2.1.1)
+  - PopupDialog (1.1.0):
+    - DynamicBlurView (~> 3.0.1)
+  - PowerLiftKit (0.9.1)
+  - PrivacySharedFramework (0.2.11):
+    - MicrosoftSharedUI (~> 0.2.16)
+    - Reykjavik (~> 0.0.16)
+  - PureLayout (3.0.2)
+  - React (0.59.10):
+    - React/Core (= 0.59.10)
+  - react-native-shimmer (0.4.1):
+    - React (>= 0.45.1)
+    - Shimmer (~> 1)
+  - React/Core (0.59.10):
+    - yoga (= 0.59.10.React)
+  - React/CxxBridge (0.59.10):
+    - Folly (= 2018.10.22.00)
+    - React/Core
+    - React/cxxreact
+    - React/jsiexecutor
+  - React/cxxreact (0.59.10):
+    - boost-for-react-native (= 1.63.0)
+    - DoubleConversion
+    - Folly (= 2018.10.22.00)
+    - glog
+    - React/jsinspector
+  - React/DevSupport (0.59.10):
+    - React/Core
+    - React/RCTWebSocket
+  - React/fishhook (0.59.10)
+  - React/jsi (0.59.10):
+    - DoubleConversion
+    - Folly (= 2018.10.22.00)
+    - glog
+  - React/jsiexecutor (0.59.10):
+    - DoubleConversion
+    - Folly (= 2018.10.22.00)
+    - glog
+    - React/cxxreact
+    - React/jsi
+  - React/jsinspector (0.59.10)
+  - React/RCTAnimation (0.59.10):
+    - React/Core
+  - React/RCTBlob (0.59.10):
+    - React/Core
+  - React/RCTImage (0.59.10):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTNetwork (0.59.10):
+    - React/Core
+  - React/RCTSettings (0.59.10):
+    - React/Core
+  - React/RCTText (0.59.10):
+    - React/Core
+  - React/RCTWebSocket (0.59.10):
+    - React/Core
+    - React/fishhook
+    - React/RCTBlob
+  - Reykjavik (0.0.16)
+  - RNFS (2.12.0):
+    - React
+  - RNLocalize (1.1.0):
+    - React
+  - SDWebImage/Core (4.4.2)
+  - SDWebImage/GIF (4.4.2):
+    - FLAnimatedImage (~> 1.0)
+    - SDWebImage/Core
+  - Shimmer (1.0.2)
+  - SiteHeader (0.3.4):
+    - OfficeUIFabricCore
+  - SSZipArchive (2.1.1)
+  - Swinject (2.6.1)
+  - SwinjectStoryboard (2.2.0):
+    - Swinject (~> 2.6)
+  - THPinViewController (1.2.2)
+  - uservoice-iphone-sdk (3.2.3)
+  - Valet (2.2.1)
+  - YCFirstTime (1.1.3)
+  - yoga (0.59.10.React)
+
+DEPENDENCIES:
+  - 1PasswordExtension
+  - ADAL (~> 2.7)
+  - ADALiOS (~> 1.2.2)
+  - Adjust (~> 4)
+  - AFNetworking (~> 2)
+  - Appboy-iOS-SDK (~> 3)
+  - AriaObjC.framework.debug (= 8.6.3.0)
+  - AriaObjC.framework.release (= 8.6.3.0)
+  - CircleProgressView (from `https://github.com/CardinalNow/iOS-CircleProgressView.git`, commit `29ee372`)
+  - CocoaLumberjack
+  - DoubleConversion (from `../external/JSDependencies/node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
+  - FastImageCache (= 1.5.1)
+  - FeatureCards
+  - FLAnimatedImage (~> 1.0)
+  - FMDB (~> 2)
+  - Folly (from `../external/JSDependencies/node_modules/react-native/third-party-podspecs/Folly.podspec`)
+  - glog (from `../external/JSDependencies/node_modules/react-native/third-party-podspecs/glog.podspec`)
+  - HockeySDK
+  - HTAutocompleteTextField (~> 1.3.2)
+  - IGListKit (~> 3.0)
+  - iOSLogging
+  - iOSODSPCommon
+  - iOSODSPOperation (= 0.2.7)
+  - iOSODSPSelectionDialog (= 0.4.1)
+  - iOSODSPSharedSharing/PlusSwift (~> 2.9.5)
+  - "ItemsViewMobile (from `../external/JSDependencies/node_modules/@ms/items-view-mobile/ItemsViewMobile.podspec`)"
+  - LensSDK (= 6.4.0)
+  - lottie-ios (~> 2.1.5)
+  - MBProgressHUD (~> 1.0)
+  - MMDrawerController (~> 0.6.0)
+  - MMSegmentSlider (from `../external/MMSegmentSlider`)
+  - MSPDFKit (from `https://onedrive.visualstudio.com/SkyDrive/_git/iOSPdfKit`, branch `UI2.0`)
+  - O365ShellCore (from `https://dlwteam.visualstudio.com/O365Shell/_git/O365ShellCore-iOS`)
+  - OCMock (~> 3.2)
+  - ODSPMobileTelemetry
+  - ODSPSharedAccounts
+  - OfficeUIFabric (~> 0.3.11)
+  - OfficeUIFabricCore (from `../external/OfficeUIFabricCore`)
+  - OneDriveSDK
+  - OPAL
+  - PagingMenuController (from `../external/PagingMenuController`)
+  - PopupDialog (= 1.1.0)
+  - PowerLiftKit (~> 0.9.1)
+  - PrivacySharedFramework (~> 0.2.11)
+  - PureLayout
+  - react-native-shimmer (from `../external/JSDependencies/node_modules/react-native-shimmer/react-native-shimmer.podspec`)
+  - React/Core (from `../external/JSDependencies/node_modules/react-native`)
+  - React/CxxBridge (from `../external/JSDependencies/node_modules/react-native`)
+  - React/DevSupport (from `../external/JSDependencies/node_modules/react-native`)
+  - React/RCTAnimation (from `../external/JSDependencies/node_modules/react-native`)
+  - React/RCTImage (from `../external/JSDependencies/node_modules/react-native`)
+  - React/RCTNetwork (from `../external/JSDependencies/node_modules/react-native`)
+  - React/RCTSettings (from `../external/JSDependencies/node_modules/react-native`)
+  - React/RCTText (from `../external/JSDependencies/node_modules/react-native`)
+  - React/RCTWebSocket (from `../external/JSDependencies/node_modules/react-native`)
+  - RNFS (from `../external/JSDependencies/node_modules/react-native-fs/RNFS.podspec`)
+  - RNLocalize (from `../external/JSDependencies/node_modules/react-native-localize/RNLocalize.podspec`)
+  - Shimmer
+  - SiteHeader (from `../external/SiteHeader`)
+  - SSZipArchive (= 2.1.1)
+  - Swinject (= 2.6.1)
+  - SwinjectStoryboard (= 2.2.0)
+  - THPinViewController (from `../external/THPinViewController`)
+  - uservoice-iphone-sdk (from `../external/uservoice-iphone-sdk`)
+  - Valet (~> 2)
+  - YCFirstTime (~> 1.1.3)
+  - yoga (from `../external/JSDependencies/node_modules/react-native/ReactCommon/yoga/yoga.podspec`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - 1PasswordExtension
+    - ADAL
+    - ADALiOS
+    - Adjust
+    - AFNetworking
+    - Appboy-iOS-SDK
+    - Base32
+    - boost-for-react-native
+    - CocoaLumberjack
+    - DynamicBlurView
+    - ExpandableLabel
+    - FastImageCache
+    - FLAnimatedImage
+    - FMDB
+    - HockeySDK
+    - HTAutocompleteTextField
+    - IGListKit
+    - KeychainAccess
+    - lottie-ios
+    - MBProgressHUD
+    - MMDrawerController
+    - OCMock
+    - OneDriveSDK
+    - PopupDialog
+    - PureLayout
+    - SDWebImage
+    - Shimmer
+    - SSZipArchive
+    - Swinject
+    - SwinjectStoryboard
+    - Valet
+    - YCFirstTime
+  https://msblox.visualstudio.com/DefaultCollection/_git/CocoaPods:
+    - AriaObjC.framework.debug
+    - AriaObjC.framework.release
+    - FeatureCards
+    - GIKPopoverBackgroundView-odsp
+    - iOSLogging
+    - iOSODSPCommon
+    - iOSODSPOperation
+    - iOSODSPSelectionDialog
+    - iOSODSPSharedSharing
+    - LensSDK
+    - MicrosoftSharedUI
+    - ODSPMobileTelemetry
+    - ODSPSharedAccounts
+    - OfficeUIFabric
+    - OPAL
+    - PowerLiftKit
+    - PrivacySharedFramework
+    - Reykjavik
+
+EXTERNAL SOURCES:
+  CircleProgressView:
+    :commit: 29ee372
+    :git: https://github.com/CardinalNow/iOS-CircleProgressView.git
+  DoubleConversion:
+    :podspec: "../external/JSDependencies/node_modules/react-native/third-party-podspecs/DoubleConversion.podspec"
+  Folly:
+    :podspec: "../external/JSDependencies/node_modules/react-native/third-party-podspecs/Folly.podspec"
+  glog:
+    :podspec: "../external/JSDependencies/node_modules/react-native/third-party-podspecs/glog.podspec"
+  ItemsViewMobile:
+    :podspec: "../external/JSDependencies/node_modules/@ms/items-view-mobile/ItemsViewMobile.podspec"
+  MMSegmentSlider:
+    :path: "../external/MMSegmentSlider"
+  MSPDFKit:
+    :branch: UI2.0
+    :git: https://onedrive.visualstudio.com/SkyDrive/_git/iOSPdfKit
+  O365ShellCore:
+    :git: https://dlwteam.visualstudio.com/O365Shell/_git/O365ShellCore-iOS
+  OfficeUIFabricCore:
+    :path: "../external/OfficeUIFabricCore"
+  PagingMenuController:
+    :path: "../external/PagingMenuController"
+  React:
+    :podspec: "../external/JSDependencies/node_modules/react-native"
+  react-native-shimmer:
+    :podspec: "../external/JSDependencies/node_modules/react-native-shimmer/react-native-shimmer.podspec"
+  RNFS:
+    :podspec: "../external/JSDependencies/node_modules/react-native-fs/RNFS.podspec"
+  RNLocalize:
+    :podspec: "../external/JSDependencies/node_modules/react-native-localize/RNLocalize.podspec"
+  SiteHeader:
+    :path: "../external/SiteHeader"
+  THPinViewController:
+    :path: "../external/THPinViewController"
+  uservoice-iphone-sdk:
+    :path: "../external/uservoice-iphone-sdk"
+  yoga:
+    :podspec: "../external/JSDependencies/node_modules/react-native/ReactCommon/yoga/yoga.podspec"
+
+CHECKOUT OPTIONS:
+  CircleProgressView:
+    :commit: 29ee372
+    :git: https://github.com/CardinalNow/iOS-CircleProgressView.git
+  MSPDFKit:
+    :commit: fdaf43a46d2a460eb375de1387f251d924fc9e35
+    :git: https://onedrive.visualstudio.com/SkyDrive/_git/iOSPdfKit
+  O365ShellCore:
+    :commit: 287eb9dbcfd7e125b14d2338a1718b8534a42b39
+    :git: https://dlwteam.visualstudio.com/O365Shell/_git/O365ShellCore-iOS
+
+SPEC CHECKSUMS:
+  1PasswordExtension: 303f2b7bbf6dc19ede3090bd6b5987530648d687
+  ADAL: 38cd5adca4630e1cadbbaaafccacf7aff0d693c0
+  ADALiOS: 505c364827c25dd37811e660a943dace9c0ff094
+  Adjust: 87b3f066ea103f1dabfaa8e428a75b992bf7712e
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  Appboy-iOS-SDK: 2c1135d321280dadbdc3f88ba68bbd87023cd03e
+  AriaObjC.framework.debug: b27cde6d466870b0896030f8b031b43eb1b2db82
+  AriaObjC.framework.release: d3f9692002deb7d295ae6e5917405f2593a1f442
+  Base32: 163c298644d184e89ca4e00a996bad6bf5166390
+  boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
+  CircleProgressView: 6b5b091d59dc5e5d2fda84e637a40498cdc39937
+  CocoaLumberjack: 2f44e60eb91c176d471fdba43b9e3eae6a721947
+  DoubleConversion: e22e0762848812a87afd67ffda3998d9ef29170c
+  DynamicBlurView: b1df5415f9bd31897549e5d7077e5ec120a4d636
+  ExpandableLabel: c2fab6d27860c572d67134b30522a5917746171d
+  FastImageCache: 2e7a6f677b15336eb3d1a4092a494676256c891d
+  FeatureCards: 2e7d497af279c88b79239beb02b5025b2f826aa8
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  Folly: de497beb10f102453a1afa9edbf8cf8a251890de
+  GIKPopoverBackgroundView-odsp: 17558312b83bd97caaba22c7a11ac44e6b39aa11
+  glog: 1de0bb937dccdc981596d3b5825ebfb765017ded
+  HockeySDK: 15afe6bc0a5bfe3a531fd73dbf082095f37dac3b
+  HTAutocompleteTextField: ce809f04875e843e20f214ab973bb496ba7a93b1
+  IGListKit: 7a5d788e9fb746bcd402baa8e8b24bc3bd2a5a07
+  iOSLogging: aded0b7f8a3c74fa8b8c452b75fd850c12399835
+  iOSODSPCommon: 311509070c4ee49e6ee2f348ddc42015b2622bca
+  iOSODSPOperation: b968f6e901f9c671ae1226795bcbf75a2c5c0afb
+  iOSODSPSelectionDialog: bdaf324dce1e7e30e9cd47ebcc31104281076c14
+  iOSODSPSharedSharing: 0300d4a734d67f387e8232f198243bc2972d94a5
+  ItemsViewMobile: 80ba78650f43aee41c3bfb7dd810b771e1abc63a
+  KeychainAccess: 3b1bf8a77eb4c6ea1ce9404c292e48f948954c6b
+  LensSDK: af8b20b6c28d59967de7a00143ef601cbdf68c83
+  lottie-ios: 836cdbba92f62f3c6a00e37a4ce485321fe317cf
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MicrosoftSharedUI: 276cc01d467b9715a081abb304cbbb6d44b1b979
+  MMDrawerController: e3a54a5570388463ad3b36975251575b50c4e1a0
+  MMSegmentSlider: 6450d68b886a5f76a5d670ab7b4613a22d9f78dc
+  MSPDFKit: e37b565a49d67dc66f5eab2b82e1f833c99bf087
+  O365ShellCore: 795391d797825ef07dca568ec3686d6059c6e8ba
+  OCMock: 18c9b7e67d4c2770e95bb77a9cc1ae0c91fe3835
+  ODSPMobileTelemetry: 3f7020bafee234b18b655b8f2e9eebb8c0685ec4
+  ODSPSharedAccounts: 849fb8118824aa9aa5e9f30888d2f0206a07f9cf
+  OfficeUIFabric: b58863ed8e6fcc0af24e0aa4900b3c2617be26be
+  OfficeUIFabricCore: 54bcbe62f5931f17d437a01b7a57380c544723d7
+  OneDriveSDK: 140abd05088c6a7670a02bccf9deb6d01dd7d7df
+  OPAL: 7ad036e37ae6cf8e0d6de4375803187d303b8691
+  PagingMenuController: 394af0edd93ae6d574e138df0bb458f81b355646
+  PopupDialog: 42fb7a0bc4fafdf89fef8b5b2b127a6023f3e1cc
+  PowerLiftKit: 3f0a8c80f008471e0afede55387c45f556465011
+  PrivacySharedFramework: dec33133e86b081d50bac2d5971e214c080441d6
+  PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
+  React: 36d0768f9e93be2473b37e7fa64f92c1d5341eef
+  react-native-shimmer: d9553cb0e2e6d8b7421389f9068b466c3973bd55
+  Reykjavik: 17b09527b8eac57bf35a73446b2db1f6c9bb0f8e
+  RNFS: adcee9a3e7cec0469b7709535504aac628a9ed2e
+  RNLocalize: 5bb73cadfe271a24ae6b821863bbed5f12aaecaf
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  Shimmer: c5374be1c2b0c9e292fb05b339a513cf291cac86
+  SiteHeader: a08bc2ca96f5b32fac104aecbabc1bc4e5cd9f8c
+  SSZipArchive: 14401ade5f8e82aba1ff03e9f88e9de60937ae60
+  Swinject: b624462f47b635a64f89a60a247baa5fccec14e1
+  SwinjectStoryboard: 32512ef16c2b0ff5b8f823b23539c4a50f6d3383
+  THPinViewController: 14539c0fe652410c6e999abe58265ca1e66f0de4
+  uservoice-iphone-sdk: 349d9ef36d3c43939d28390b9e86bb32b65fe983
+  Valet: 8873c1f797822a513b5b3b18d19955fc39b22aab
+  YCFirstTime: 7daef261357bd74b4badd85113e2adb309d69900
+  yoga: 684513b14b03201579ba3cee20218c9d1298b0cc
+
+PODFILE CHECKSUM: 4823d5d31f1d047ec47b5e22d5386f032645f15d
+
+COCOAPODS: 1.8.4

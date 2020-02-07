@@ -1,0 +1,346 @@
+PODS:
+  - 1PasswordExtension (1.8.4)
+  - ADAL (2.7.14):
+    - ADAL/app-lib (= 2.7.14)
+  - ADAL/app-lib (2.7.14):
+    - ADAL/tokencacheheader
+  - ADAL/tokencacheheader (2.7.14)
+  - Adjust (4.11.5):
+    - Adjust/Core (= 4.11.5)
+  - Adjust/Core (4.11.5)
+  - Advance (3.0.0)
+  - Appboy-iOS-SDK/Core (3.11.0)
+  - AppCenter (2.4.0):
+    - AppCenter/Analytics (= 2.4.0)
+    - AppCenter/Crashes (= 2.4.0)
+  - AppCenter/Analytics (2.4.0):
+    - AppCenter/Core
+  - AppCenter/Core (2.4.0)
+  - AppCenter/Crashes (2.4.0):
+    - AppCenter/Core
+  - AppCenter/Distribute (2.4.0):
+    - AppCenter/Core
+  - BingKit/AS (0.2.2):
+    - BingKit/Core
+    - JASON (~> 3.0)
+  - BingKit/Business (0.2.2):
+    - BingKit/Core
+    - JASON (~> 3.0)
+  - BingKit/Core (0.2.2):
+    - Reachability
+    - SwiftGen
+  - BingKit/InstantSearch (0.2.2):
+    - BingKit/Core
+    - JASON (~> 3.0)
+  - BingKit/News (0.2.2):
+    - BingKit/Core
+    - JASON (~> 3.0)
+  - BingKit/Speech (0.2.2):
+    - BingKit/Core
+    - Starscream (~> 3.0.5)
+  - boost-for-react-native (1.63.0)
+  - BVLinearGradient (2.5.4):
+    - React
+  - ChromeSyncSDK (1.0.11.3-RC-2)
+  - CHTCollectionViewWaterfallLayout (0.9.2)
+  - CocoaLumberjack/Core (3.5.3)
+  - CocoaLumberjack/Swift (3.5.3):
+    - CocoaLumberjack/Core
+  - DeepLinkKit (1.4.0)
+  - DoubleConversion (1.1.6)
+  - EMMXUIComponents (0.0.1)
+  - FLEX (3.0.0)
+  - Folly (2018.10.22.00):
+    - boost-for-react-native
+    - DoubleConversion
+    - glog
+  - GCDWebServer (3.4.2):
+    - GCDWebServer/Core (= 3.4.2)
+  - GCDWebServer/Core (3.4.2)
+  - glog (0.3.5)
+  - JASON (3.1)
+  - KeychainAccess (3.2.0)
+  - lottie-ios (3.1.2)
+  - MMXSDK/Application (2.2.2):
+    - Adjust (~> 4.11.4)
+    - ProjectRomeSdk (~> 0.8.1)
+    - Reachability
+  - "NSURL+IDN (0.3)"
+  - ODSPSharedAccounts (2.3.5):
+    - KeychainAccess (~> 3)
+  - PLCrashReporter (1.2.0)
+  - PowerLiftKit (1.0.1)
+  - ProjectRomeSdk (0.8.1)
+  - Reachability (3.2)
+  - React (0.59.10):
+    - React/Core (= 0.59.10)
+  - react-native-blur (0.8.0):
+    - React
+  - react-native-fetch-blob (0.10.6):
+    - React/Core
+  - react-native-media-picker (0.0.1):
+    - React
+  - React/Core (0.59.10):
+    - yoga (= 0.59.10.React)
+  - React/CxxBridge (0.59.10):
+    - Folly (= 2018.10.22.00)
+    - React/Core
+    - React/cxxreact
+    - React/jsiexecutor
+  - React/cxxreact (0.59.10):
+    - boost-for-react-native (= 1.63.0)
+    - DoubleConversion
+    - Folly (= 2018.10.22.00)
+    - glog
+    - React/jsinspector
+  - React/DevSupport (0.59.10):
+    - React/Core
+    - React/RCTWebSocket
+  - React/fishhook (0.59.10)
+  - React/jsi (0.59.10):
+    - DoubleConversion
+    - Folly (= 2018.10.22.00)
+    - glog
+  - React/jsiexecutor (0.59.10):
+    - DoubleConversion
+    - Folly (= 2018.10.22.00)
+    - glog
+    - React/cxxreact
+    - React/jsi
+  - React/jsinspector (0.59.10)
+  - React/RCTActionSheet (0.59.10):
+    - React/Core
+  - React/RCTAnimation (0.59.10):
+    - React/Core
+  - React/RCTBlob (0.59.10):
+    - React/Core
+  - React/RCTCameraRoll (0.59.10):
+    - React/Core
+    - React/RCTImage
+  - React/RCTImage (0.59.10):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTLinkingIOS (0.59.10):
+    - React/Core
+  - React/RCTNetwork (0.59.10):
+    - React/Core
+  - React/RCTText (0.59.10):
+    - React/Core
+  - React/RCTVibration (0.59.10):
+    - React/Core
+  - React/RCTWebSocket (0.59.10):
+    - React/Core
+    - React/fishhook
+    - React/RCTBlob
+  - ReactNativeLocalization (0.2.1):
+    - React
+  - ReactNativePermissions (1.0.6):
+    - React
+  - RNCryptor (5.0.3)
+  - RNGestureHandler (1.4.1):
+    - React
+  - RNSVG (9.3.3):
+    - React
+  - SDWebImage (5.0.1):
+    - SDWebImage/Core (= 5.0.1)
+  - SDWebImage/Core (5.0.1)
+  - Starscream (3.0.6)
+  - SwiftGen (4.2.1)
+  - SwiftKeychainWrapper (3.4.0)
+  - SwiftLint (0.32.0)
+  - UIImageViewAlignedSwift (0.4.1)
+  - yoga (0.59.10.React)
+  - ZFPlayer (3.2.1):
+    - ZFPlayer/Core (= 3.2.1)
+  - ZFPlayer/AVPlayer (3.2.1):
+    - ZFPlayer/Core
+  - ZFPlayer/Core (3.2.1)
+
+DEPENDENCIES:
+  - 1PasswordExtension
+  - ADAL (~> 2.7.14)
+  - Advance
+  - Appboy-iOS-SDK/Core (= 3.11.0)
+  - AppCenter
+  - AppCenter/Crashes
+  - AppCenter/Distribute
+  - BingKit/AS (from `https://msblox.visualstudio.com/_git/BingSDK`, tag `0.2.4.0.07`)
+  - BingKit/Business (from `https://msblox.visualstudio.com/_git/BingSDK`, tag `0.2.4.0.07`)
+  - BingKit/InstantSearch (from `https://msblox.visualstudio.com/_git/BingSDK`, tag `0.2.4.0.07`)
+  - BingKit/News (from `https://msblox.visualstudio.com/_git/BingSDK`, tag `0.2.4.0.07`)
+  - BingKit/Speech (from `https://msblox.visualstudio.com/_git/BingSDK`, tag `0.2.4.0.07`)
+  - BVLinearGradient (from `../RNApp/node_modules/react-native-linear-gradient/BVLinearGradient.podspec`)
+  - ChromeSyncSDK (= 1.0.11.3-RC-2)
+  - CHTCollectionViewWaterfallLayout (= 0.9.2)
+  - CocoaLumberjack/Swift
+  - DeepLinkKit (= 1.4.0)
+  - DoubleConversion (from `../RNApp/node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
+  - EMMXUIComponents (from `./EMMXUIComponents`)
+  - FLEX (~> 3.0)
+  - Folly (from `../RNApp/node_modules/react-native/third-party-podspecs/Folly.podspec`)
+  - GCDWebServer (~> 3.0)
+  - glog (from `../RNApp/node_modules/react-native/third-party-podspecs/glog.podspec`)
+  - JASON (~> 3.0)
+  - lottie-ios
+  - MMXSDK/Application (= 2.2.2)
+  - "NSURL+IDN"
+  - ODSPSharedAccounts
+  - PLCrashReporter (~> 1.2)
+  - PowerLiftKit (~> 1.0.0)
+  - Reachability
+  - react-native-blur (from `../RNApp/node_modules/react-native-blur/react-native-blur.podspec`)
+  - react-native-fetch-blob (from `../RNApp/node_modules/react-native-fetch-blob`)
+  - react-native-media-picker (from `../RNApp/libs/react-native-media-picker`)
+  - React/Core (from `../RNApp/node_modules/react-native`)
+  - React/CxxBridge (from `../RNApp/node_modules/react-native`)
+  - React/DevSupport (from `../RNApp/node_modules/react-native`)
+  - React/RCTActionSheet (from `../RNApp/node_modules/react-native`)
+  - React/RCTAnimation (from `../RNApp/node_modules/react-native`)
+  - React/RCTCameraRoll (from `../RNApp/node_modules/react-native`)
+  - React/RCTImage (from `../RNApp/node_modules/react-native`)
+  - React/RCTLinkingIOS (from `../RNApp/node_modules/react-native`)
+  - React/RCTNetwork (from `../RNApp/node_modules/react-native`)
+  - React/RCTText (from `../RNApp/node_modules/react-native`)
+  - React/RCTVibration (from `../RNApp/node_modules/react-native`)
+  - React/RCTWebSocket (from `../RNApp/node_modules/react-native`)
+  - ReactNativeLocalization (from `../RNApp/node_modules/react-native-localization/ReactNativeLocalization.podspec`)
+  - ReactNativePermissions (from `../RNApp/node_modules/react-native-permissions`)
+  - RNCryptor (~> 5.0.3)
+  - RNGestureHandler (from `../RNApp/node_modules/react-native-gesture-handler`)
+  - RNSVG (from `../RNApp/node_modules/react-native-svg`)
+  - SDWebImage (~> 5.0)
+  - SwiftGen (~> 4.2.1)
+  - SwiftKeychainWrapper
+  - SwiftLint
+  - UIImageViewAlignedSwift
+  - yoga (from `../RNApp/node_modules/react-native/ReactCommon/yoga`)
+  - ZFPlayer (= 3.2.1)
+  - ZFPlayer/AVPlayer (= 3.2.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - 1PasswordExtension
+    - ADAL
+    - Adjust
+    - Advance
+    - Appboy-iOS-SDK
+    - AppCenter
+    - boost-for-react-native
+    - CHTCollectionViewWaterfallLayout
+    - CocoaLumberjack
+    - DeepLinkKit
+    - FLEX
+    - GCDWebServer
+    - JASON
+    - KeychainAccess
+    - lottie-ios
+    - "NSURL+IDN"
+    - PLCrashReporter
+    - ProjectRomeSdk
+    - Reachability
+    - RNCryptor
+    - SDWebImage
+    - Starscream
+    - SwiftGen
+    - SwiftKeychainWrapper
+    - SwiftLint
+    - UIImageViewAlignedSwift
+    - ZFPlayer
+  https://msblox.visualstudio.com/DefaultCollection/_git/CocoaPods:
+    - ChromeSyncSDK
+    - MMXSDK
+    - ODSPSharedAccounts
+    - PowerLiftKit
+
+EXTERNAL SOURCES:
+  BingKit:
+    :git: https://msblox.visualstudio.com/_git/BingSDK
+    :tag: 0.2.4.0.07
+  BVLinearGradient:
+    :podspec: "../RNApp/node_modules/react-native-linear-gradient/BVLinearGradient.podspec"
+  DoubleConversion:
+    :podspec: "../RNApp/node_modules/react-native/third-party-podspecs/DoubleConversion.podspec"
+  EMMXUIComponents:
+    :path: "./EMMXUIComponents"
+  Folly:
+    :podspec: "../RNApp/node_modules/react-native/third-party-podspecs/Folly.podspec"
+  glog:
+    :podspec: "../RNApp/node_modules/react-native/third-party-podspecs/glog.podspec"
+  React:
+    :path: "../RNApp/node_modules/react-native"
+  react-native-blur:
+    :podspec: "../RNApp/node_modules/react-native-blur/react-native-blur.podspec"
+  react-native-fetch-blob:
+    :path: "../RNApp/node_modules/react-native-fetch-blob"
+  react-native-media-picker:
+    :path: "../RNApp/libs/react-native-media-picker"
+  ReactNativeLocalization:
+    :podspec: "../RNApp/node_modules/react-native-localization/ReactNativeLocalization.podspec"
+  ReactNativePermissions:
+    :path: "../RNApp/node_modules/react-native-permissions"
+  RNGestureHandler:
+    :path: "../RNApp/node_modules/react-native-gesture-handler"
+  RNSVG:
+    :path: "../RNApp/node_modules/react-native-svg"
+  yoga:
+    :path: "../RNApp/node_modules/react-native/ReactCommon/yoga"
+
+CHECKOUT OPTIONS:
+  BingKit:
+    :git: https://msblox.visualstudio.com/_git/BingSDK
+    :tag: 0.2.4.0.07
+  react-native-blur:
+    :commit: ecf5f98f1e5fbcc5ef0d75cf3591374692916e68
+    :git: https://github.com/react-native-community/react-native-blur.git
+
+SPEC CHECKSUMS:
+  1PasswordExtension: e775a29310c65851e5a6cec1afc349ab4e334e47
+  ADAL: 8215a413ae8ddeac996651ca615a9dad5371df3a
+  Adjust: 4d8e3830da125a270705188250c3ba86b544ebb7
+  Advance: 78e0d679507c1d596f56252e123b872d2e917517
+  Appboy-iOS-SDK: 8083e5b8035c8e7f81a90f46f2154b3e35ce7aae
+  AppCenter: 49a9ffe114c00e2bf5374aeda816d47eabf1978a
+  BingKit: 986a1757c9459d2afcf4b0bb9f4a2423b8f64150
+  boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
+  BVLinearGradient: 8cbc5155c978f2e43098818c91d206d07aae6d30
+  ChromeSyncSDK: e73e448a068f394e001b52f4b8949e233d910c7b
+  CHTCollectionViewWaterfallLayout: 43232febcb3e4d3985cd758718cbe499b21b822f
+  CocoaLumberjack: 2f44e60eb91c176d471fdba43b9e3eae6a721947
+  DeepLinkKit: bffd3b5e51549222f974d631b4e0e7484600b9d8
+  DoubleConversion: bb338842f62ab1d708ceb63ec3d999f0f3d98ecd
+  EMMXUIComponents: e816e8db30e343bc81b24e7fee0b52eb93ff984c
+  FLEX: d66c759bce0f6ebbbf472c742380874d846f2883
+  Folly: de497beb10f102453a1afa9edbf8cf8a251890de
+  GCDWebServer: 8d67ee9f634b4bb91eb4b8aee440318a5fc6debd
+  glog: aefd1eb5dda2ab95ba0938556f34b98e2da3a60d
+  JASON: c1204b01c9979eef35b6948ca939aac5e7bef081
+  KeychainAccess: 3b1bf8a77eb4c6ea1ce9404c292e48f948954c6b
+  lottie-ios: 49cd85b1f24f61a7708ad7ec76a523ab2d0e3100
+  MMXSDK: 099830bcfa1bbc5825d3c090c3e65f787a6d50d6
+  "NSURL+IDN": 82355a0afd532fe1de08f6417c134b49b1a1c4b3
+  ODSPSharedAccounts: 938cd1d15660354b40ac22eb2029d328f0e1027d
+  PLCrashReporter: 16927d86a093d0b9cf110545dacb77cb0ed0f243
+  PowerLiftKit: 8ba0f0087eeda594c877ff4d5b61f75de8bfe7ee
+  ProjectRomeSdk: 97a147fe291b240f536164a0e292ac901ce42e26
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  React: 36d0768f9e93be2473b37e7fa64f92c1d5341eef
+  react-native-blur: cad4d93b364f91e7b7931b3fa935455487e5c33c
+  react-native-fetch-blob: 2bef9be702de8726f4d7bf58d2345579aaaee60d
+  react-native-media-picker: 007c0f234049305aade201a66183a03fa1427b2d
+  ReactNativeLocalization: 432cf9cfbb3009ea454deaa1b7becc34366cf6e5
+  ReactNativePermissions: a25615ebfd785b7a081dff3dec88bf191a7d7c42
+  RNCryptor: c93d19029dcf7ff160aca0f24d6c9e7b0d82f664
+  RNGestureHandler: 4cb47a93019c1a201df2644413a0a1569a51c8aa
+  RNSVG: 978db19eaef499d9ebffb74a091ca0abf209c8c1
+  SDWebImage: 27dd2c9ea07a2252f94557c9fbb6105ee94b74c9
+  Starscream: ef3ece99d765eeccb67de105bfa143f929026cf5
+  SwiftGen: 2ba2a88fc6130b96e38e2baa0029e4bd222ffd85
+  SwiftKeychainWrapper: 6fc49fbf7d4a6b0772917acb0e53a1639f6078d6
+  SwiftLint: 009a898ef2a1c851f45e1b59349bf6ff2ddc990d
+  UIImageViewAlignedSwift: e72ef2a85a75a01d19b4509ac92a3bdb872cd73c
+  yoga: 684513b14b03201579ba3cee20218c9d1298b0cc
+  ZFPlayer: 00292c75ee52f5c2e4056c4fe911aa7697f5559f
+
+PODFILE CHECKSUM: 33ca5c2a6edaa7656ea8718c113bb5ad1f27a321
+
+COCOAPODS: 1.7.3
