@@ -1,8 +1,3 @@
-resources:
-  containers:
-  - container: CachedServerContainer
-    image: microsoft/windowsservercore@sha256:11827f8ee0c02106489e553be170c083381ee362687f0ae097a2ac5482b72778
-
 jobs:
 - job: platformSpecificBuild
   displayName: Component Detection - 
@@ -20,11 +15,6 @@ jobs:
         imageName: 'vs2017-win2016'
         poolName: 'Hosted VS2017'
         runtimeIdentifier: 'win-x64'
-      Windows_Container:
-        imageName: 'win1803'
-        poolName: 'Hosted Windows Container'
-        container: CachedServerContainer
-        runtimeIdentifier: 'win-x64'
 
   pool:
     name: $(poolName)
@@ -34,7 +24,6 @@ jobs:
   - task: NodeTool@0
     inputs:
       versionSpec: '6.x'
-    condition: eq(variables['imageName'], 'win1803')
 
   - task: Npm@1
     inputs:
@@ -48,7 +37,6 @@ jobs:
       goals: 'dependency:tree'
       options: '-DoutputFile="cg.mvndeps" -DoutputType=text -f .\pom.xml'
       publishJUnitResults: false
-    condition: ne(variables['imageName'], 'win1803')
 
   - task: OpenSourceEngineeringTeam.vss-ose-buildtask-ppe.ose-build-task-component-detection-ppe.ComponentGovernanceComponentDetectionPpe@0
     displayName: 'PPE Component Detection'
