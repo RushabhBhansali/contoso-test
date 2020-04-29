@@ -23,7 +23,7 @@ namespace Governance.BuildTask.PPETests
         [TestInitialize]
         public void GatherResources()
         {
-            string artifactsDir = Environment.GetEnvironmentVariable("SYSTEM_ARTIFACTSDIRECTORY") ?? "C:\\";
+            string artifactsDir = Environment.GetEnvironmentVariable("SYSTEM_ARTIFACTSDIRECTORY") ?? "D:\\Temp\\sampleout";
             string[] files = Directory.GetFiles(artifactsDir);
             files = files.Where(x => x.Contains("GovCompDisc_")).ToArray();
             Array.Sort(files);
@@ -71,17 +71,30 @@ namespace Governance.BuildTask.PPETests
             // Parse out array of registrations
             // make sure each component id has identical fields.
             // if any are lost, error, new ones should come with a bumped detector version, which is checked during the detectors counts test.
-            Dictionary<string, RegistrationRequest> componentDictionary = this.NewManifestRegistrations.ToDictionary(x => x.Component.ToString(), x => x);
+            Dictionary<string, RegistrationRequest> newComponentDictionary = this.NewManifestRegistrations.ToDictionary(x => x.Component.ToString(), x => x);
             foreach (var oldRegistrationRequest in OldManifestRegistrations)
             {
                 var oldRegistrationString = oldRegistrationRequest.Component.ToString();
-                Assert.IsTrue(componentDictionary.TryGetValue(oldRegistrationString, out var registrationRequest), $"The registration request for {oldRegistrationRequest.Component.ToString()} was not present in the manifest file. Verify this is expected behavior before proceeding");
+                Assert.IsTrue(newComponentDictionary.TryGetValue(oldRegistrationString, out var registrationRequest), $"The registration request for {oldRegistrationRequest.Component.ToString()} was not present in the new manifest file. Verify this is expected behavior before proceeding");
                 if (oldRegistrationRequest.DevelopmentDependency != null)
                 {
                     Assert.AreEqual(oldRegistrationRequest.DevelopmentDependency, registrationRequest.DevelopmentDependency, $"Registration for component: {registrationRequest.Component} has a different \"DevelopmentDependency\".");
                 }
                 Assert.AreEqual(oldRegistrationRequest.ForgeId, registrationRequest.ForgeId, $"Registration for component: {registrationRequest.Component} has a different \"Forge Id\" than before");
                 Assert.AreEqual(oldRegistrationRequest.IsManual, registrationRequest.IsManual, $"Registration for component: {registrationRequest.Component} has a different \"IsManual\" field than before");
+            }
+
+            Dictionary<string, RegistrationRequest> oldComponentDictionary = this.OldManifestRegistrations.ToDictionary(x => x.Component.ToString(), x => x);
+            foreach (var newRegistrationRequest in NewManifestRegistrations)
+            {
+                var newRegistrationString = newRegistrationRequest.Component.ToString();
+                Assert.IsTrue(oldComponentDictionary.TryGetValue(newRegistrationString, out var registrationRequest), $"The registration request for {newRegistrationRequest.Component.ToString()} was not present in the old manifest file. Verify this is expected behavior before proceeding");
+                if (newRegistrationRequest.DevelopmentDependency != null)
+                {
+                    Assert.AreEqual(newRegistrationRequest.DevelopmentDependency, registrationRequest.DevelopmentDependency, $"Registration for component: {registrationRequest.Component} has a different \"DevelopmentDependency\".");
+                }
+                Assert.AreEqual(newRegistrationRequest.ForgeId, registrationRequest.ForgeId, $"Registration for component: {registrationRequest.Component} has a different \"Forge Id\" than before");
+                Assert.AreEqual(newRegistrationRequest.IsManual, registrationRequest.IsManual, $"Registration for component: {registrationRequest.Component} has a different \"IsManual\" field than before");
             }
         }
 
