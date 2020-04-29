@@ -23,7 +23,7 @@ namespace Governance.BuildTask.PPETests
         [TestInitialize]
         public void GatherResources()
         {
-            string artifactsDir = Environment.GetEnvironmentVariable("SYSTEM_ARTIFACTSDIRECTORY") ?? "D:\\Temp\\sampleout";
+            string artifactsDir = Environment.GetEnvironmentVariable("SYSTEM_ARTIFACTSDIRECTORY") ?? "C:\\";
             string[] files = Directory.GetFiles(artifactsDir);
             files = files.Where(x => x.Contains("GovCompDisc_")).ToArray();
             Array.Sort(files);
