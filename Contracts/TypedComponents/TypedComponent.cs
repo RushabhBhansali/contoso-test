@@ -63,6 +63,12 @@ namespace Governance.BuildTask.PPETests.Contracts
         [DataMember(EmitDefaultValue = false)]
         public PipComponent Pip { get; set; }
 
+        /// <summary>
+        /// The Linux defition of the component. Required only for Linux components.
+        /// </summary>
+        [DataMember(EmitDefaultValue = false)]
+        public LinuxComponent Linux { get; set; }
+
         public TypedComponent()
         {
         }
@@ -88,6 +94,8 @@ namespace Governance.BuildTask.PPETests.Contracts
                     return $"{Pip.Name} {Pip.Version} -{Type}";
                 case ComponentType.Other:
                     return $"{Other.Name} {Other.Version} -{Type}";
+                case ComponentType.Linux:
+                    return $"{Linux.Distribution} {Linux.Release} {Linux.Name} {Linux.Version} - {Type}";
                 // not sure what the default could be here.
                 default:
                     return Npm.Name + " " + Npm.Version + " -npm";
