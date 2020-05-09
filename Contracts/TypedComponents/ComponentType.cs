@@ -54,9 +54,6 @@ namespace Governance.BuildTask.PPETests.Contracts
         /// Indicates the component is a Pip package.
         /// </summary>
         [EnumMember]
-        Pip = 8,
-
-        [EnumMember]
-        Linux = 13,
+        Pip = 8
     }
 }

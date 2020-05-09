@@ -23,17 +23,32 @@ namespace Governance.BuildTask.PPETests
         [TestInitialize]
         public void GatherResources()
         {
-            var oldGithubArtifactsDir = Environment.GetEnvironmentVariable("GITHUB_OLD_ARTIFACTS_DIR");
-            var newGithubArtifactsDir = Environment.GetEnvironmentVariable("GITHUB_NEW_ARTIFACTS_DIR");
+            string artifactsDir = Environment.GetEnvironmentVariable("SYSTEM_ARTIFACTSDIRECTORY") ?? "C:\\";
+            string[] files = Directory.GetFiles(artifactsDir);
+            files = files.Where(x => x.Contains("GovCompDisc_")).ToArray();
+            Array.Sort(files);
+            // cg files are sorted by timestamp/and since we have extra copies in the case of multiple detection runs in one build, the ones we want are at these indexes:
+            // logs = 0,1 ; manifest = 2,3 ; metadata = 4,5
+            string oldManifestFileContents;
+            string newManifestFileContents;
+            string oldMetadataFileContents;
+            string newMetadataFileContents;
+            try{
+                this.newLogFileContents = File.ReadAllText(files[0]);
+                this.oldLogFileContents = File.ReadAllText(files[1]);
+                newManifestFileContents = File.ReadAllText(files[2]);
+                oldManifestFileContents = File.ReadAllText(files[3]);
+                newMetadataFileContents = File.ReadAllText(files[4]);
+                oldMetadataFileContents = File.ReadAllText(files[5]);           
+            }
+            catch(Exception){
+                throw new Exception("The detector did not publish expected log/metadata files to the correct location");
+            }
 
-            if (!string.IsNullOrWhiteSpace(oldGithubArtifactsDir) && !string.IsNullOrWhiteSpace(newGithubArtifactsDir))
-            {
-                SetupGithub(oldGithubArtifactsDir, newGithubArtifactsDir);
-            }
-            else
-            {
-                SetupAzdo();
-            }
+            this.OldManifestRegistrations = JsonConvert.DeserializeObject<RegistrationRequest[]>(oldManifestFileContents);
+            this.NewManifestRegistrations = JsonConvert.DeserializeObject<RegistrationRequest[]>(newManifestFileContents);
+            this.OldMetadata = JsonConvert.DeserializeObject<GovernanceDetectionMetadata>(oldMetadataFileContents);
+            this.NewMetadata = JsonConvert.DeserializeObject<GovernanceDetectionMetadata>(newMetadataFileContents);
         }
 
         [TestMethod]
@@ -209,54 +224,6 @@ namespace Governance.BuildTask.PPETests
                 };
             }
             return failed;
-        }
-
-        private void SetupGithub(string oldGithubArtifactsDir, string newGithubArtifactsDir)
-        {
-            var oldGithubDirectory = new DirectoryInfo(oldGithubArtifactsDir);
-            this.oldLogFileContents = GetFileTextWithPattern("GovCompDisc_Log*.log", oldGithubDirectory);
-            this.OldManifestRegistrations = JsonConvert.DeserializeObject<RegistrationRequest[]>(GetFileTextWithPattern("GovCompDisc_Manifest*.json", oldGithubDirectory));
-            this.OldMetadata = JsonConvert.DeserializeObject<GovernanceDetectionMetadata>(GetFileTextWithPattern("GovCompDisc_Metadata*.json", oldGithubDirectory));
-
-            var newGithubDirectory = new DirectoryInfo(newGithubArtifactsDir);
-            this.newLogFileContents = GetFileTextWithPattern("GovCompDisc_Log*.log", newGithubDirectory);
-            this.NewManifestRegistrations = JsonConvert.DeserializeObject<RegistrationRequest[]>(GetFileTextWithPattern("GovCompDisc_Manifest*.json", newGithubDirectory));
-            this.NewMetadata = JsonConvert.DeserializeObject<GovernanceDetectionMetadata>(GetFileTextWithPattern("GovCompDisc_Metadata*.json", newGithubDirectory));
-        }
-
-        private void SetupAzdo()
-        {
-            string artifactsDir = Environment.GetEnvironmentVariable("SYSTEM_ARTIFACTSDIRECTORY") ?? "C:\\";
-            string[] files = Directory.GetFiles(artifactsDir);
-            files = files.Where(x => x.Contains("GovCompDisc_")).ToArray();
-            Array.Sort(files);
-            // cg files are sorted by timestamp/and since we have extra copies in the case of multiple detection runs in one build, the ones we want are at these indexes:
-            // logs = 0,1 ; manifest = 2,3 ; metadata = 4,5
-            string oldManifestFileContents;
-            string newManifestFileContents;
-            string oldMetadataFileContents;
-            string newMetadataFileContents;
-            try{
-                this.newLogFileContents = File.ReadAllText(files[0]);
-                this.oldLogFileContents = File.ReadAllText(files[1]);
-                newManifestFileContents = File.ReadAllText(files[2]);
-                oldManifestFileContents = File.ReadAllText(files[3]);
-                newMetadataFileContents = File.ReadAllText(files[4]);
-                oldMetadataFileContents = File.ReadAllText(files[5]);           
-            }
-            catch(Exception){
-                throw new Exception("The detector did not publish expected log/metadata files to the correct location");
-            }
-
-            this.OldManifestRegistrations = JsonConvert.DeserializeObject<RegistrationRequest[]>(oldManifestFileContents);
-            this.NewManifestRegistrations = JsonConvert.DeserializeObject<RegistrationRequest[]>(newManifestFileContents);
-            this.OldMetadata = JsonConvert.DeserializeObject<GovernanceDetectionMetadata>(oldMetadataFileContents);
-            this.NewMetadata = JsonConvert.DeserializeObject<GovernanceDetectionMetadata>(newMetadataFileContents);
-        }
-
-        private string GetFileTextWithPattern(string pattern, DirectoryInfo directory)
-        {
-            return directory.GetFiles(pattern).Single().OpenText().ReadToEnd();
         }
     }
 }
