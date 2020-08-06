@@ -23,5 +23,5 @@ tokio = "0.2.13"
 rocket = "0.4.4"
 
 [dependencies.cargo-lock]
-cargoversion = "4.0.1"
+version = "4.0.1"
 features = ["dependency-tree"]
