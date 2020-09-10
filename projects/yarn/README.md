@@ -1,1 +1,1 @@
-These sample files are from https://github.com/electron/electron.
+These sample files are from https://github.com/electron/electron: e6fbbf432.
