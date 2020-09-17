@@ -1,0 +1,1 @@
+These sample files are from https://github.com/Azure/azure-sdk-for-net: 1bf85a0ae2.
