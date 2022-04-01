@@ -1,4 +1,5 @@
 trigger:
+
 - main
 
 pool:
@@ -24,4 +25,10 @@ steps:
     buildType: 'current'
     downloadType: 'specific'
     downloadPath: '$(System.ArtifactsDirectory)'
+    
+- task: ComponentGovernanceComponentDetection@0
+  inputs:
+    scanType: 'Register'
+    verbosity: 'Verbose'
+    alertWarningLevel: 'High'
 
