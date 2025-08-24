@@ -14,3 +14,4 @@ This repo is a set of open source projects and the files componentdetection woul
         - rust: uutils
         - yarn: react-sample-app
         - gradle: appcenter-test-espresso
+        - fdafda
