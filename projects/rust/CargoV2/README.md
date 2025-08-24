@@ -1,1 +1,0 @@
-These sample files are from https://github.com/rust-lang/cargo: e4b65bdc8.

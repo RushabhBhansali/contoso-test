@@ -1,1 +1,0 @@
-These sample files are from https://github.com/OpenIntelWireless/HeliPort: bbcfb72.

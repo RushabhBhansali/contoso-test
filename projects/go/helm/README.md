@@ -1,1 +1,0 @@
-These sample files are from https://github.com/helm/helm: 1b0a26ff.

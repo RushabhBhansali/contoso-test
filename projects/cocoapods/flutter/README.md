@@ -1,1 +1,0 @@
-These sample files are from https://github.com/flutter/flutter: 48ba488d3.

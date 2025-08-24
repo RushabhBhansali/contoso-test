@@ -1,1 +1,0 @@
-These sample files are from https://github.com/apache/maven: 5fbe40a33.

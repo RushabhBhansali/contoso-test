@@ -1,1 +1,0 @@
-These sample files are from https://github.com/Workday/warp-core: 3581e25.

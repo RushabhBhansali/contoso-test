@@ -1,1 +1,0 @@
-These sample files are from https://github.com/QueueClassic/queue_classic: 1e40ddd.
