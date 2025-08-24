@@ -2,8 +2,7 @@ trigger:
 
 - main
 
-pool:
-  vmImage: ubuntu-latest
+pool: Default
 
 steps:
 - script: echo Hello, world!
@@ -13,22 +12,9 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
-
-- task: cgcdazdowrapperppe@0
-  inputs:
-    scanType: 'Register'
-    verbosity: 'Verbose'
-    alertWarningLevel: 'High'
-
-- task: DownloadBuildArtifacts@1
-  inputs:
-    buildType: 'current'
-    downloadType: 'specific'
-    downloadPath: '$(System.ArtifactsDirectory)'
-    
 - task: ComponentGovernanceComponentDetection@0
   inputs:
     scanType: 'Register'
-    verbosity: 'Verbose'
+    verbosity: 'Normal'
     alertWarningLevel: 'High'
 
