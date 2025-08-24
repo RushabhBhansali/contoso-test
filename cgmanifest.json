@@ -1,0 +1,105 @@
+{
+    "$schema": "https://json.schemastore.org/component-detection-manifest.json",
+    "version": 1,
+    "registrations": [
+        {
+            "component": {
+                "Type": "nuget",
+                "nuget": {
+                    "name": "EntityFramework.MappingAPI",
+                    "version": "6.2.1"
+                }
+            }
+        },
+        {
+            "component": {
+                "Type": "npm",
+                "npm": {
+                    "name": "minimist",
+                    "version": "1.2.5"
+                }
+            }
+        },
+        {
+            "component": {
+                "Type": "npm",
+                "npm": {
+                    "name": "npmlog",
+                    "version": "5.0.1"
+                }
+            }
+        },
+        {
+            "component": {
+                "Type": "npm",
+                "npm": {
+                    "name": "npmlog",
+                    "version": "6.0.2"
+                }
+            }
+        },
+        {
+            "component": {
+                "Type": "npm",
+                "npm": {
+                    "name": "npmlog",
+                    "version": "6.0.0"
+                }
+            }
+        },
+        {
+            "component": {
+                "Type": "npm",
+                "npm": {
+                    "name": "request",
+                    "version": "2.88.2"
+                }
+            }
+        },
+        {
+            "component": {
+                "Type": "npm",
+                "npm": {
+                    "name": "request",
+                    "version": "2.88.0"
+                }
+            }
+        },
+        {
+            "component": {
+                "type": "npm",
+                "npm": {
+                    "name": "arg",
+                    "version": "4.10.0"
+                }
+            }
+        },
+        {
+            "component": {
+                "type": "npm",
+                "npm": {
+                    "name": "arg",
+                    "version": "5.0.1"
+                }
+            }
+        },
+        {
+            "component": {
+                "type": "npm",
+                "npm": {
+                    "name": "pbkdf2",
+                    "version": "3.1.2"
+                }
+            }
+        },
+        {
+            "component": {
+                "type": "npm",
+                "npm": {
+                    "name": "tar-fs",
+                    "version": "2.1.2"
+                }
+            }
+        }
+    ]
+}
